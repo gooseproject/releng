@@ -14,7 +14,7 @@
 
 #############################################################################
 # Add the repos you wish to use to compose here.  At least one of them needs group data.
-repo --name=GoOSe-6 --baseurl=http://koji.gooselinux.org/mash/sketchy/x86_64/os/
+repo --name=GoOSe-6 --baseurl=http://koji.gooselinux.org/mash/sketchy/$basearch/os/
 repo --name=GoOSe-6-src --baseurl=http://koji.gooselinux.org/mash/sketchy/source/SRPMS/
 
 
@@ -41,31 +41,29 @@ liferea
 esc
 thunderbird
 # apps
-@authoring-and-publishing
+@technical-writing
 @eclipse
 joe
 emacs
 k3b
-@system-tools
+@network-tools
 wireshark-gnome
 # Devel packages
-@development-libs
-@development-tools
-@gnome-software-development
-@java-development
-@kde-software-development
-@web-development
+@additional-devel
+@development
+@desktop-platform-devel
+@java-platform
+@web-services
 @x-software-development
 # Server packages
-@dns-server
+@network-server
 @ftp-server
 @mail-server
 @mysql
 @network-server
-@news-server
-@server-cfg
-@smb-server --optional
-@sql-server --optional
+@graphical-admin-tools
+@cifs-file-server
+@databases --optional
 @web-server --optional
 # Virt group
 @virtualization --optional
@@ -84,7 +82,6 @@ wireshark-gnome
 @bengali-support
 @bhutanese-support
 @burmese-support
-@bosnian-support
 @brazilian-support
 @breton-support
 @british-support
@@ -98,7 +95,6 @@ wireshark-gnome
 @esperanto-support
 @estonian-support
 @ethiopic-support
-@faeroese-support
 @filipino-support
 @finnish-support
 @french-support
@@ -134,7 +130,6 @@ wireshark-gnome
 @marathi-support
 @mongolian-support
 @nepali-support
-@northern-sami-support
 @northern-sotho-support
 @norwegian-support
 @oriya-support
@@ -144,7 +139,6 @@ wireshark-gnome
 @punjabi-support
 @romanian-support
 @russian-support
-@samoan-support
 @serbian-support
 @sindhi-support
 @sinhala-support
@@ -161,7 +155,6 @@ wireshark-gnome
 @telugu-support
 @thai-support
 @tibetan-support
-@tonga-support
 @tsonga-support
 @tswana-support
 @turkish-support

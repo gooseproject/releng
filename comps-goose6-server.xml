@@ -590,7 +590,6 @@
       <packagereq type='mandatory'>lohit-assamese-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-assamese</packagereq>
       <packagereq type='mandatory'>m17n-db-assamese</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-as-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-as</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
@@ -836,31 +835,31 @@
     <name xml:lang='zh_CN'>基本</name>
     <name xml:lang='zh_TW'>基礎</name>
     <name xml:lang='zu'>Isiqu</name>
-    <description>The basic installation of Red Hat Enterprise Linux.</description>
-    <description xml:lang='as'>Red Hat Enterprise Linux ৰ মৌলিক সংস্থাপন ।</description>
-    <description xml:lang='bn_IN'>Red Hat Enterprise Linux-র মৌলিক ইনস্টলেশন।</description>
-    <description xml:lang='de'>Die Basis-Installation von Red Hat Enterprise Linux.</description>
-    <description xml:lang='es'>Instalación básica de Red Hat Enterprise Linux.</description>
-    <description xml:lang='fr'>Installation de base de Red Hat Enterprise Linux.</description>
-    <description xml:lang='gu'>Red Hat Enterprise Linux નું આધાર સ્થાપન.</description>
-    <description xml:lang='hi'>Red Hat Enterprise Linux का मौलिक संस्थापन.</description>
-    <description xml:lang='it'>Installazione di base di Red Hat Enterprise Linux.</description>
-    <description xml:lang='ja'>Red Hat Enterprise Linux の基本インストール</description>
-    <description xml:lang='kn'>Red Hat Enterprise Linuxನ ಮೂಲಭೂತ ಅನುಸ್ಥಾಪನೆ.</description>
-    <description xml:lang='ko'>Red Hat Enterprise Linux 기본 설치.</description>
-    <description xml:lang='ml'>Red Hat Enterprise Linux-ന്റെ അടിസ്ഥാന ഇന്‍സ്റ്റലേഷന്‍.</description>
-    <description xml:lang='mr'>Red Hat Enterprise Linux चे मुळ प्रतिष्ठापन.</description>
-    <description xml:lang='or'>Red Hat Enterprise Linux ର ମୌଳିକ ସ୍ଥାପନା।</description>
-    <description xml:lang='pa'>Red Hat Enterprise Linux ਦੀ ਮੁਢਲੀ ਇੰਸਟਾਲੇਸ਼ਨ।</description>
-    <description xml:lang='pl'>Podstawowa instalacja systemu Red Hat Enterprise Linux.</description>
-    <description xml:lang='pt_BR'>A instalação básica do Red Hat Enterprise Linux</description>
-    <description xml:lang='ru'>Стандартная установка Red Hat Enterprise Linux.</description>
-    <description xml:lang='sv'>Grundinstallationen av Red Hat Enterprise Linux.</description>
-    <description xml:lang='ta'>Red Hat Enterprise Linuxன் அடிப்படை நிறுவல்.</description>
-    <description xml:lang='te'>Red Hat Enterprise Linux యొక్క ప్రాధమిక సంస్థాపన.</description>
-    <description xml:lang='uk'>Стандартне встановлення Red Hat Enterprise Linux.</description>
+    <description>The basic installation of GoOSe Linux.</description>
+    <description xml:lang='as'>GoOse Linux ৰ মৌলিক সংস্থাপন ।</description>
+    <description xml:lang='bn_IN'>GoOse Linux-র মৌলিক ইনস্টলেশন।</description>
+    <description xml:lang='de'>Die Basis-Installation von GoOse Linux.</description>
+    <description xml:lang='es'>Instalación básica de GoOse Linux.</description>
+    <description xml:lang='fr'>Installation de base de GoOse Linux.</description>
+    <description xml:lang='gu'>GoOse Linux નું આધાર સ્થાપન.</description>
+    <description xml:lang='hi'>GoOse Linux का मौलिक संस्थापन.</description>
+    <description xml:lang='it'>Installazione di base di GoOse Linux.</description>
+    <description xml:lang='ja'>GoOse Linux の基本インストール</description>
+    <description xml:lang='kn'>GoOse Linuxನ ಮೂಲಭೂತ ಅನುಸ್ಥಾಪನೆ.</description>
+    <description xml:lang='ko'>GoOse Linux 기본 설치.</description>
+    <description xml:lang='ml'>GoOse Linux-ന്റെ അടിസ്ഥാന ഇന്‍സ്റ്റലേഷന്‍.</description>
+    <description xml:lang='mr'>GoOse Linux चे मुळ प्रतिष्ठापन.</description>
+    <description xml:lang='or'>GoOse Linux ର ମୌଳିକ ସ୍ଥାପନା।</description>
+    <description xml:lang='pa'>GoOse Linux ਦੀ ਮੁਢਲੀ ਇੰਸਟਾਲੇਸ਼ਨ।</description>
+    <description xml:lang='pl'>Podstawowa instalacja systemu GoOse Linux.</description>
+    <description xml:lang='pt_BR'>A instalação básica do GoOse Linux</description>
+    <description xml:lang='ru'>Стандартная установка GoOse Linux.</description>
+    <description xml:lang='sv'>Grundinstallationen av GoOse Linux.</description>
+    <description xml:lang='ta'>GoOse Linuxன் அடிப்படை நிறுவல்.</description>
+    <description xml:lang='te'>GoOse Linux యొక్క ప్రాధమిక సంస్థాపన.</description>
+    <description xml:lang='uk'>Стандартне встановлення GoOse Linux.</description>
     <description xml:lang='zh_CN'>红帽企业版 Linux 基本安装。</description>
-    <description xml:lang='zh_TW'>Red Hat Enterprise Linux 的基本安裝。</description>
+    <description xml:lang='zh_TW'>GoOse Linux 的基本安裝。</description>
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -886,7 +885,6 @@
       <packagereq type='mandatory'>setserial</packagereq>
       <packagereq type='mandatory'>tmpwatch</packagereq>
       <packagereq type='mandatory'>traceroute</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-en-US</packagereq>
       <packagereq type='default'>abrt-addon-ccpp</packagereq>
       <packagereq type='default'>abrt-addon-kerneloops</packagereq>
       <packagereq type='default'>abrt-addon-python</packagereq>
@@ -1308,7 +1306,6 @@
       <packagereq type='mandatory'>lohit-bengali-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-bengali</packagereq>
       <packagereq type='mandatory'>m17n-db-bengali</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-bn-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-bn</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
@@ -1446,7 +1443,6 @@
     <uservisible>true</uservisible>
     <langonly>pt_BR</langonly>
     <packagelist>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-pt-BR</packagereq>
       <packagereq requires='eclipse-platform' type='conditional'>eclipse-nls-pt_BR</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-pt</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Brazil</packagereq>
@@ -1975,8 +1971,6 @@
     <uservisible>true</uservisible>
     <langonly>zh</langonly>
     <packagelist>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-zh-CN</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-zh-TW</packagereq>
       <packagereq type='default'>cjkuni-ukai-fonts</packagereq>
       <packagereq type='default'>cjkuni-uming-fonts</packagereq>
       <packagereq type='default'>ibus-table-cangjie</packagereq>
@@ -2079,31 +2073,31 @@
     <name xml:lang='uk'>Бібліотеки сумісності</name>
     <name xml:lang='zh_CN'>兼容程序库</name>
     <name xml:lang='zh_TW'>相容性函式庫</name>
-    <description>Compatibility libraries for applications built on previous versions of Red Hat Enterprise Linux.</description>
-    <description xml:lang='as'>Red Hat Enterprise Linux ৰ পূৰ্ববৰ্তী সংস্কৰণত নিৰ্মিত অনুপ্ৰয়োগৰ সৈতে সুসংগতিৰ বাবে লাইব্ৰৰি ।</description>
-    <description xml:lang='bn_IN'>Red Hat Enterprise Linux-র পূর্ববর্তী সংস্করণের মধ্যে নির্মিত অ্যাপ্লিকেশনের সাথে সুসংগতির জন্য লাইব্রেরি।</description>
-    <description xml:lang='de'>Kompatibilitätsbibliotheken für Applikationen, die auf früheren Versionen von Red Hat Enterprise Linux erstellt wurden.</description>
-    <description xml:lang='es'>Bibliotecas de compatibilidad para aplicaciones creadas en versiones anteriores de Red Hat Enterprise Linux.</description>
-    <description xml:lang='fr'>Biblitohèques de compatibilité pour application construites sur des versions précédentes de Red Hat Enterprise Linux.</description>
-    <description xml:lang='gu'>Red Hat Enterprise Linux ની પહેલાંની આવૃત્તિઓ પર બિસ્ટ કાર્યક્રમો માટે સુસંગત લાઇબ્રેરીઓ.</description>
-    <description xml:lang='hi'>Red Hat Enterprise Linux के पहले संस्करण पर निर्मित अनुप्रयोग के लिए सुसंगतता लाइब्रेरी.</description>
-    <description xml:lang='it'>Librerie di compatibilità per le applicazioni compilate su versioni precedenti di Red Hat Enterprise Linux.</description>
-    <description xml:lang='ja'>旧バージョンの Red Hat Enterprise Linux によって構築されたアプリケーションに対する互換性ライブラリ</description>
-    <description xml:lang='kn'>ಹಿಂದಿನ Red Hat Enterprise Linuxನ ಆವೃತ್ತಿಯಲ್ಲಿ ನಿರ್ಮಿಸಲಾದ ಅನ್ವಯಗಳಿಗಾಗಿನ ಸಹರ್ತನೀಯ ಲೈಬ್ರರಿಗಳು.</description>
-    <description xml:lang='ko'>예전 버전의 Red Hat Enterprise Linux에서 빌드된 프로그램을 위한 호환성 라이브러리</description>
-    <description xml:lang='ml'>Red Hat Enterprise Linux-ന്റെ മുമ്പുള്ള പതിപ്പുകളില്‍ തയ്യാറാക്കിയിട്ടുള്ള പ്രയോഗങ്ങള്‍ക്കു് പൊരുത്തപ്പെടുന്ന ലൈബ്രറികള്‍.</description>
-    <description xml:lang='mr'>Red Hat Enterprise Linux च्या मागील आवृत्तींवर बिल्ट केलेल्या ऍप्लिकेशन्स् करीता सहत्वता लाइब्ररीज्.</description>
-    <description xml:lang='or'>Red Hat Enterprise Linux ର ପୂର୍ବ ସଂସ୍କରଣରେ ନିର୍ମିତ ପ୍ରୟୋଗଗୁଡ଼ିକ ପାଇଁ ସୁସଙ୍ଗତତା ଲାଇବ୍ରେରୀ।</description>
-    <description xml:lang='pa'>Red Hat Enterprise Linux ਦੇ ਪਿਛਲੇ ਵਰਜਨ ਉੱਪਰ ਬਣੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਈ ਅਨੁਕੂਲਤਾ ਲਾਇਬਰੇਰੀਆਂ।</description>
-    <description xml:lang='pl'>Biblioteki zgodności dla aplikacji zbudowanych w poprzednich wersjach systemu Red Hat Enterprise Linux.</description>
-    <description xml:lang='pt_BR'>As bibliotecas de compatibilidades para aplicativos construídos em versões anteriores do Red Hat Enterprise Linux.</description>
-    <description xml:lang='ru'>Библиотеки совместимости для приложений, созданных в предыдущих версиях Red Hat Enterprise Linux.</description>
-    <description xml:lang='sv'>Kompatibilitetsbibliotek för program byggda på tidigare versioner av Red Hat Enterprise Linux</description>
-    <description xml:lang='ta'>Red Hat Enterprise Linuxன் முந்தைய பதிப்புகளில் பயன்பாடுகளை கட்டுவதற்கான ஒத்தியல்பு நூலகங்கள்.</description>
-    <description xml:lang='te'>Red Hat Enterprise Linux యొక్క గత వర్షన్లపై నిర్మితమైన అనువర్తనముల కొరకు కంపాటిబిలిటి లైబ్రరీలు.</description>
-    <description xml:lang='uk'>Бібліотеки сумісності для програм, створених у попередніх версіях Red Hat Enterprise Linux.</description>
+    <description>Compatibility libraries for applications built on previous versions of GoOSe Linux.</description>
+    <description xml:lang='as'>GoOSe Linux ৰ পূৰ্ববৰ্তী সংস্কৰণত নিৰ্মিত অনুপ্ৰয়োগৰ সৈতে সুসংগতিৰ বাবে লাইব্ৰৰি ।</description>
+    <description xml:lang='bn_IN'>GoOSe Linux-র পূর্ববর্তী সংস্করণের মধ্যে নির্মিত অ্যাপ্লিকেশনের সাথে সুসংগতির জন্য লাইব্রেরি।</description>
+    <description xml:lang='de'>Kompatibilitätsbibliotheken für Applikationen, die auf früheren Versionen von GoOSe Linux erstellt wurden.</description>
+    <description xml:lang='es'>Bibliotecas de compatibilidad para aplicaciones creadas en versiones anteriores de GoOSe Linux.</description>
+    <description xml:lang='fr'>Biblitohèques de compatibilité pour application construites sur des versions précédentes de GoOSe Linux.</description>
+    <description xml:lang='gu'>GoOSe Linux ની પહેલાંની આવૃત્તિઓ પર બિસ્ટ કાર્યક્રમો માટે સુસંગત લાઇબ્રેરીઓ.</description>
+    <description xml:lang='hi'>GoOSe Linux के पहले संस्करण पर निर्मित अनुप्रयोग के लिए सुसंगतता लाइब्रेरी.</description>
+    <description xml:lang='it'>Librerie di compatibilità per le applicazioni compilate su versioni precedenti di GoOSe Linux.</description>
+    <description xml:lang='ja'>旧バージョンの GoOSe Linux によって構築されたアプリケーションに対する互換性ライブラリ</description>
+    <description xml:lang='kn'>ಹಿಂದಿನ GoOSe Linuxನ ಆವೃತ್ತಿಯಲ್ಲಿ ನಿರ್ಮಿಸಲಾದ ಅನ್ವಯಗಳಿಗಾಗಿನ ಸಹರ್ತನೀಯ ಲೈಬ್ರರಿಗಳು.</description>
+    <description xml:lang='ko'>예전 버전의 GoOSe Linux에서 빌드된 프로그램을 위한 호환성 라이브러리</description>
+    <description xml:lang='ml'>GoOSe Linux-ന്റെ മുമ്പുള്ള പതിപ്പുകളില്‍ തയ്യാറാക്കിയിട്ടുള്ള പ്രയോഗങ്ങള്‍ക്കു് പൊരുത്തപ്പെടുന്ന ലൈബ്രറികള്‍.</description>
+    <description xml:lang='mr'>GoOSe Linux च्या मागील आवृत्तींवर बिल्ट केलेल्या ऍप्लिकेशन्स् करीता सहत्वता लाइब्ररीज्.</description>
+    <description xml:lang='or'>GoOSe Linux ର ପୂର୍ବ ସଂସ୍କରଣରେ ନିର୍ମିତ ପ୍ରୟୋଗଗୁଡ଼ିକ ପାଇଁ ସୁସଙ୍ଗତତା ଲାଇବ୍ରେରୀ।</description>
+    <description xml:lang='pa'>GoOSe Linux ਦੇ ਪਿਛਲੇ ਵਰਜਨ ਉੱਪਰ ਬਣੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਈ ਅਨੁਕੂਲਤਾ ਲਾਇਬਰੇਰੀਆਂ।</description>
+    <description xml:lang='pl'>Biblioteki zgodności dla aplikacji zbudowanych w poprzednich wersjach systemu GoOSe Linux.</description>
+    <description xml:lang='pt_BR'>As bibliotecas de compatibilidades para aplicativos construídos em versões anteriores do GoOSe Linux.</description>
+    <description xml:lang='ru'>Библиотеки совместимости для приложений, созданных в предыдущих версиях GoOSe Linux.</description>
+    <description xml:lang='sv'>Kompatibilitetsbibliotek för program byggda på tidigare versioner av GoOSe Linux</description>
+    <description xml:lang='ta'>GoOSe Linuxன் முந்தைய பதிப்புகளில் பயன்பாடுகளை கட்டுவதற்கான ஒத்தியல்பு நூலகங்கள்.</description>
+    <description xml:lang='te'>GoOSe Linux యొక్క గత వర్షన్లపై నిర్మితమైన అనువర్తనముల కొరకు కంపాటిబిలిటి లైబ్రరీలు.</description>
+    <description xml:lang='uk'>Бібліотеки сумісності для програм, створених у попередніх версіях GoOSe Linux.</description>
     <description xml:lang='zh_CN'>用于在红帽企业版 Linux 的之前版本中构建的应用程序的兼容程序库。</description>
-    <description xml:lang='zh_TW'>建置於先前版本的 Red Hat Enterprise Linux 上的應用程式的相容性函式庫。</description>
+    <description xml:lang='zh_TW'>建置於先前版本的 GoOSe Linux 上的應用程式的相容性函式庫。</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -2162,7 +2156,7 @@
     <description xml:lang='pa'>ਇਸ ਗਰੁੱਪ ਵਿੱਚ ਉਹ ਪੈਕੇਜ ਹਨ ਜੋ ਸਰਵਰ ਵੇਰੀਏਂਟਾਂ ਉੱਪਰ @everything ਇੰਸਟਾਲੇਸ਼ਨ ਨਾਲ ਪ੍ਰਤੀਰੋਧੀ ਹਨ।</description>
     <description xml:lang='pl'>Ta grupa zawiera pakiety będące w konflikcie z instalacją typu @everything dla wariantu serwerowego.</description>
     <description xml:lang='pt_BR'>Este grupo inclui pacotes conflitantes com a instalação do @everything em variante de Servidor.</description>
-    <description xml:lang='ru'>Эта группа содержит пакеты, создающие конфликт при установке @everything в Red Hat Enterprise Linux Server.</description>
+    <description xml:lang='ru'>Эта группа содержит пакеты, создающие конфликт при установке @everything в GoOSe Linux Server.</description>
     <description xml:lang='ta'>இந்தக் குழுவானது சேவையக மாறுபாட்டின் தொகுப்புகளின் முரண்பாடு @everything நிறுவலையும் சேர்க்கிறது.</description>
     <description xml:lang='te'>ఈ సమూహం సర్వర్ వేరియంట్ పై @everything సంస్థాపనతో విభేదిస్తున్న ప్యాకేజీలను కలిగివుంటుంది.</description>
     <description xml:lang='zh_CN'>这个组群包含与 @everything 服务器变体安装冲突的软件包。</description>
@@ -2875,31 +2869,31 @@
     <name xml:lang='uk'>Платформа Desktop</name>
     <name xml:lang='zh_CN'>桌面平台</name>
     <name xml:lang='zh_TW'>桌面環境平台</name>
-    <description>Supported libraries for the Red Hat Enterprise Linux Desktop Platform.</description>
-    <description xml:lang='as'>Red Hat Enterprise Linux Desktop Platform সমৰ্থনৰ বাবে লাইব্ৰৰি ।</description>
-    <description xml:lang='bn_IN'>Red Hat Enterprise Linux Desktop Platform সমর্থনের জন্য লাইব্রেরি।</description>
-    <description xml:lang='de'>Unterstützte Bibliotheken für die Red Hat Enterprise Linux Desktop-Plattform.</description>
-    <description xml:lang='es'>Bibliotecas soportadas para la plataforma de escritorio de Red Hat Enterprise Linux.</description>
-    <description xml:lang='fr'>Bibliothèques prises en charge pour la plateforme de bureau de Red Hat Enterprise Linux.</description>
-    <description xml:lang='gu'>Red Hat Enterprise Linux ડેસ્કટોપ પ્લેટફોર્મ માટે આધારભૂત લાઇબ્રેરીઓ.</description>
-    <description xml:lang='hi'>Red Hat Enterprise Linux डेस्कटॉप प्लैटफॉर्म के लिए समर्थित लाइब्रेरी.</description>
-    <description xml:lang='it'>Librerie supportate per il Red Hat Enterprise Linux Desktop Platform.</description>
-    <description xml:lang='ja'>Red Hat Enterprise Linux Desktop Platform のサポート対象ライブラリです。</description>
-    <description xml:lang='kn'>Red Hat Enterprise Linux ಡೆಸ್ಕ್‌ಟಾಪ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮಿಗಾಗಿ ಬೆಂಬಲಿತ ಲೈಬ್ರರಿಗಳು.</description>
-    <description xml:lang='ko'>Red Hat Enterprise Linux 데스크탑 플랫폼을 위한 지원 라이브러리.</description>
-    <description xml:lang='ml'>Red Hat Enterprise Linux ഡസ്ക്ടോപ്പ് പ്ലാറ്റ്ഫോം പിന്തുണയ്ക്കുന്നതിനുള്ള ലൈബ്രറികള്‍.</description>
-    <description xml:lang='mr'>Red Hat Enterprise Linux Desktop Platform करीता समर्थीत लाइब्ररीज्.</description>
-    <description xml:lang='or'>Red Hat Enterprise Linux ଡେସ୍କଟପ ପ୍ଲାଟଫର୍ମ ପାଇଁ ସମର୍ଥିତ ଲାଇବ୍ରେରୀଗୁଡ଼ିକ।</description>
-    <description xml:lang='pa'>Red Hat Enterprise Linux ਡੈਸਕਟਾਪ ਪਲੇਟਫਾਰਮ ਲਈ ਸਹਿਯੋਗ ਲਾਇਬਰੇਰੀਆਂ।</description>
-    <description xml:lang='pl'>Obsługiwane biblioteki platformy pulpitu systemu Red Hat Enterprise Linux.</description>
-    <description xml:lang='pt_BR'>Bibliotecas suportadas para a Plataforma de Desktop do Red Hat Enterprise Linux</description>
-    <description xml:lang='ru'>Поддерживаемые библиотеки для Red Hat Enterprise Linux Desktop.</description>
-    <description xml:lang='sv'>Stödda bibliotek för Red Hat Enterprise Linux skrivbordsplattform.</description>
-    <description xml:lang='ta'>Red Hat Enterprise Linux பணிமேடை ஃப்ளாட்பார்மிற்கு துணைபுரிகிற நூலகங்கள்.</description>
-    <description xml:lang='te'>Red Hat Enterprise Linux డెస్కుటాప్ ప్లాట్‌ఫాంకు మద్దతించు లైబ్రరీలు.</description>
-    <description xml:lang='uk'>Підтримувані бібліотеки для Red Hat Enterprise Linux Desktop.</description>
+    <description>Supported libraries for the GoOSe Linux Desktop Platform.</description>
+    <description xml:lang='as'>GoOSe Linux Desktop Platform সমৰ্থনৰ বাবে লাইব্ৰৰি ।</description>
+    <description xml:lang='bn_IN'>GoOSe Linux Desktop Platform সমর্থনের জন্য লাইব্রেরি।</description>
+    <description xml:lang='de'>Unterstützte Bibliotheken für die GoOSe Linux Desktop-Plattform.</description>
+    <description xml:lang='es'>Bibliotecas soportadas para la plataforma de escritorio de GoOSe Linux.</description>
+    <description xml:lang='fr'>Bibliothèques prises en charge pour la plateforme de bureau de GoOSe Linux.</description>
+    <description xml:lang='gu'>GoOSe Linux ડેસ્કટોપ પ્લેટફોર્મ માટે આધારભૂત લાઇબ્રેરીઓ.</description>
+    <description xml:lang='hi'>GoOSe Linux डेस्कटॉप प्लैटफॉर्म के लिए समर्थित लाइब्रेरी.</description>
+    <description xml:lang='it'>Librerie supportate per il GoOSe Linux Desktop Platform.</description>
+    <description xml:lang='ja'>GoOSe Linux Desktop Platform のサポート対象ライブラリです。</description>
+    <description xml:lang='kn'>GoOSe Linux ಡೆಸ್ಕ್‌ಟಾಪ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮಿಗಾಗಿ ಬೆಂಬಲಿತ ಲೈಬ್ರರಿಗಳು.</description>
+    <description xml:lang='ko'>GoOSe Linux 데스크탑 플랫폼을 위한 지원 라이브러리.</description>
+    <description xml:lang='ml'>GoOSe Linux ഡസ്ക്ടോപ്പ് പ്ലാറ്റ്ഫോം പിന്തുണയ്ക്കുന്നതിനുള്ള ലൈബ്രറികള്‍.</description>
+    <description xml:lang='mr'>GoOSe Linux Desktop Platform करीता समर्थीत लाइब्ररीज्.</description>
+    <description xml:lang='or'>GoOSe Linux ଡେସ୍କଟପ ପ୍ଲାଟଫର୍ମ ପାଇଁ ସମର୍ଥିତ ଲାଇବ୍ରେରୀଗୁଡ଼ିକ।</description>
+    <description xml:lang='pa'>GoOSe Linux ਡੈਸਕਟਾਪ ਪਲੇਟਫਾਰਮ ਲਈ ਸਹਿਯੋਗ ਲਾਇਬਰੇਰੀਆਂ।</description>
+    <description xml:lang='pl'>Obsługiwane biblioteki platformy pulpitu systemu GoOSe Linux.</description>
+    <description xml:lang='pt_BR'>Bibliotecas suportadas para a Plataforma de Desktop do GoOSe Linux</description>
+    <description xml:lang='ru'>Поддерживаемые библиотеки для GoOSe Linux Desktop.</description>
+    <description xml:lang='sv'>Stödda bibliotek för GoOSe Linux skrivbordsplattform.</description>
+    <description xml:lang='ta'>GoOSe Linux பணிமேடை ஃப்ளாட்பார்மிற்கு துணைபுரிகிற நூலகங்கள்.</description>
+    <description xml:lang='te'>GoOSe Linux డెస్కుటాప్ ప్లాట్‌ఫాంకు మద్దతించు లైబ్రరీలు.</description>
+    <description xml:lang='uk'>Підтримувані бібліотеки для GoOSe Linux Desktop.</description>
     <description xml:lang='zh_CN'>支持的用于红帽企业版 Linux 桌面平台的程序库。</description>
-    <description xml:lang='zh_TW'>受支援的 Red Hat Enterprise Linux 桌面平台函式庫。</description>
+    <description xml:lang='zh_TW'>受支援的 GoOSe Linux 桌面平台函式庫。</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -2965,31 +2959,31 @@
     <name xml:lang='uk'>Засоби розробки для платформи Desktop</name>
     <name xml:lang='zh_CN'>桌面平台开发</name>
     <name xml:lang='zh_TW'>桌面環境平台開發</name>
-    <description>Development headers and libraries for developing applications to run on the Red Hat Enterprise Linux Desktop Platform.</description>
-    <description xml:lang='as'>Red Hat Enterprise Linux Desktop Platform-ত সঞ্চালনযোগ্য অনুপ্ৰয়োগ নিৰ্মাণৰ বাবে ব্যৱহাৰযোগ্য হেডাৰ আৰু লাইব্ৰৰি ।</description>
-    <description xml:lang='bn_IN'>Red Hat Enterprise Linux Desktop Platform-র মধ্যে সঞ্চালনযোগ্য অ্যাপ্লিকেশন নির্মাণের জন্য ব্যবহারযোগ্য হেডার ও লাইব্রেরি।</description>
-    <description xml:lang='de'>Entwicklungs-Header-Dateien und -Bibliotheken zur Entwicklung von Anwendungen, die auf der Red Hat Enterprise Linux Desktop-Plattform laufen sollen.</description>
-    <description xml:lang='es'>Cabeceras de desarrollo y bibliotecas para desarrollar aplicaciones para ejecutar en plataforma de escritorio de Red Hat Enterprise Linux.</description>
-    <description xml:lang='fr'>En-têtes et bibliothèques de développement pour développer des applications à exécuter sur la plateforme de bureau Red Hat Enterprise Linux.</description>
-    <description xml:lang='gu'>Red Hat Enterprise Linux ડેસ્કટોપ પ્લેટફોર્મ પર ચલાવવા માટે કાર્યક્રમોને વિકસાવવા માટે વિકાસ શીર્ષકો અને લાઇબ્રેરીઓ.</description>
-    <description xml:lang='hi'>Red Hat Enterprise Linux डेस्कटॉप प्लैटफॉर्म पर चलने के लिए डेस्कटॉप अनुप्रयोगों के लिए विकास शीर्षिका और लाइब्रेरी.</description>
-    <description xml:lang='it'>Librerie ed intestazioni di sviluppo per lo sviluppo di applicazioni da eseguire su Red Hat Enterprise Linux Desktop Platform.</description>
-    <description xml:lang='ja'>Red Hat Enterprise Linux Desktop Platform 上で実行するアプリケーションを開発するための開発ヘッダおよびライブラリ</description>
-    <description xml:lang='kn'>Red Hat Enterprise Linux ಡೆಸ್ಕಟಾಪ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮಿನಲ್ಲಿ ಚಲಾಯಿಸಲು ಅನ್ವಯಗಳನ್ನು ವಿಕಸನಗೊಳಿಸಲು ವಿಕಸನಾ ಹೆಡರುಗಳು ಹಾಗು ಲೈಬ್ರರಿಗಳು.</description>
-    <description xml:lang='ko'>Red Hat Enterprise Linux 데스크탑 플랫폼에서 실행될 프로그램을 개발하기 위한 개발 헤더와 라이브러리.</description>
-    <description xml:lang='ml'>Red Hat Enterprise Linux ഡസ്ക്ടോപ്പ് പ്ലാറ്റ്ഫോമില്‍ പ്രവര്‍ത്തിക്കുന്നതിനായി പ്രയോഗങ്ങള്‍ സജ്ജമാക്കുന്നതിനുള്ള ഡവലപ്മെന്റ് ഹെഡറുകളും ലൈബ്രറികളും.</description>
-    <description xml:lang='mr'>Red Hat Enterprise Linux Desktop Platfom वरील ऍप्लिकेशन्स् चालवण्याकरीता डेव्हलपमेंट हेड्डर्स व लाइब्ररीज्.</description>
-    <description xml:lang='or'>Red Hat Enterprise Linux ଡେସ୍କଟପ ପ୍ଲାଟଫର୍ମରେ ଚଲାଇବା ପାଇଁ ପ୍ରୟୋଗଗୁଡ଼ିକୁ ବିକାଶ କରିବା ପାଇଁ ବିକାଶ ଶୀର୍ଷକ ଏବଂ ଲାଇବ୍ରେରୀଗୁଡ଼ିକ।</description>
-    <description xml:lang='pa'>Red Hat Enterprise Linux ਡੈਸਕਟਾਪ ਪਲੇਟਫਾਰਮ ਤੇ ਚੱਲਣ ਵਾਲੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਡਿਵੈਲਪ ਕਰਨ ਲਈ ਡਿਵੈਲਪਮੈਂਟ ਹੈਡਰ ਅਤੇ ਲਾਇਬਰੇਰੀਆਂ।</description>
-    <description xml:lang='pl'>Nagłówki i biblioteki do tworzenia aplikacji uruchamianych w platformie pulpitu systemu Red Hat Enterprise Linux.</description>
-    <description xml:lang='pt_BR'>Cabeçalhos e bibliotecas de desenvolvimento para aplicativos de desenvolvimento a executar na Plataforma de Desktop do Red Hat Enterprise Linux.</description>
-    <description xml:lang='ru'>Библиотеки и файлы заголовков для разработки приложений для платформы Red Hat Enterprise Linux Desktop.</description>
-    <description xml:lang='sv'>Utvecklingshuvuden och bibliotek för utveckling av program som skall köra på Red Hat Enterprise Linux skrivbordsplattform.</description>
-    <description xml:lang='ta'>Red Hat Enterprise Linux பணிமேடை ஃப்ளாட்பார்மை இயக்குவதற்கான வளர்ச்சி தலைப்புகள் மற்றும் வளர்ச்சி பயன்பாடுகளுக்கான நூலகங்கள்.</description>
-    <description xml:lang='te'>Red Hat Enterprise Linux డెస్కుటాప్ ప్లాట్‌ఫాంపైన నడుపుటకు అభివృద్దిపరచే అనువర్తనముల కొరకు అభివృద్దీకరణ హెడర్స్ మరియు లైబ్రరీలు.</description>
-    <description xml:lang='uk'>Бібліотеки та файли заголовків для розробки програм для платформи Red Hat Enterprise Linux Desktop.</description>
+    <description>Development headers and libraries for developing applications to run on the GoOSe Linux Desktop Platform.</description>
+    <description xml:lang='as'>GoOSe Linux Desktop Platform-ত সঞ্চালনযোগ্য অনুপ্ৰয়োগ নিৰ্মাণৰ বাবে ব্যৱহাৰযোগ্য হেডাৰ আৰু লাইব্ৰৰি ।</description>
+    <description xml:lang='bn_IN'>GoOSe Linux Desktop Platform-র মধ্যে সঞ্চালনযোগ্য অ্যাপ্লিকেশন নির্মাণের জন্য ব্যবহারযোগ্য হেডার ও লাইব্রেরি।</description>
+    <description xml:lang='de'>Entwicklungs-Header-Dateien und -Bibliotheken zur Entwicklung von Anwendungen, die auf der GoOSe Linux Desktop-Plattform laufen sollen.</description>
+    <description xml:lang='es'>Cabeceras de desarrollo y bibliotecas para desarrollar aplicaciones para ejecutar en plataforma de escritorio de GoOSe Linux.</description>
+    <description xml:lang='fr'>En-têtes et bibliothèques de développement pour développer des applications à exécuter sur la plateforme de bureau GoOSe Linux.</description>
+    <description xml:lang='gu'>GoOSe Linux ડેસ્કટોપ પ્લેટફોર્મ પર ચલાવવા માટે કાર્યક્રમોને વિકસાવવા માટે વિકાસ શીર્ષકો અને લાઇબ્રેરીઓ.</description>
+    <description xml:lang='hi'>GoOSe Linux डेस्कटॉप प्लैटफॉर्म पर चलने के लिए डेस्कटॉप अनुप्रयोगों के लिए विकास शीर्षिका और लाइब्रेरी.</description>
+    <description xml:lang='it'>Librerie ed intestazioni di sviluppo per lo sviluppo di applicazioni da eseguire su GoOSe Linux Desktop Platform.</description>
+    <description xml:lang='ja'>GoOSe Linux Desktop Platform 上で実行するアプリケーションを開発するための開発ヘッダおよびライブラリ</description>
+    <description xml:lang='kn'>GoOSe Linux ಡೆಸ್ಕಟಾಪ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮಿನಲ್ಲಿ ಚಲಾಯಿಸಲು ಅನ್ವಯಗಳನ್ನು ವಿಕಸನಗೊಳಿಸಲು ವಿಕಸನಾ ಹೆಡರುಗಳು ಹಾಗು ಲೈಬ್ರರಿಗಳು.</description>
+    <description xml:lang='ko'>GoOSe Linux 데스크탑 플랫폼에서 실행될 프로그램을 개발하기 위한 개발 헤더와 라이브러리.</description>
+    <description xml:lang='ml'>GoOSe Linux ഡസ്ക്ടോപ്പ് പ്ലാറ്റ്ഫോമില്‍ പ്രവര്‍ത്തിക്കുന്നതിനായി പ്രയോഗങ്ങള്‍ സജ്ജമാക്കുന്നതിനുള്ള ഡവലപ്മെന്റ് ഹെഡറുകളും ലൈബ്രറികളും.</description>
+    <description xml:lang='mr'>GoOSe Linux Desktop Platfom वरील ऍप्लिकेशन्स् चालवण्याकरीता डेव्हलपमेंट हेड्डर्स व लाइब्ररीज्.</description>
+    <description xml:lang='or'>GoOSe Linux ଡେସ୍କଟପ ପ୍ଲାଟଫର୍ମରେ ଚଲାଇବା ପାଇଁ ପ୍ରୟୋଗଗୁଡ଼ିକୁ ବିକାଶ କରିବା ପାଇଁ ବିକାଶ ଶୀର୍ଷକ ଏବଂ ଲାଇବ୍ରେରୀଗୁଡ଼ିକ।</description>
+    <description xml:lang='pa'>GoOSe Linux ਡੈਸਕਟਾਪ ਪਲੇਟਫਾਰਮ ਤੇ ਚੱਲਣ ਵਾਲੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਡਿਵੈਲਪ ਕਰਨ ਲਈ ਡਿਵੈਲਪਮੈਂਟ ਹੈਡਰ ਅਤੇ ਲਾਇਬਰੇਰੀਆਂ।</description>
+    <description xml:lang='pl'>Nagłówki i biblioteki do tworzenia aplikacji uruchamianych w platformie pulpitu systemu GoOSe Linux.</description>
+    <description xml:lang='pt_BR'>Cabeçalhos e bibliotecas de desenvolvimento para aplicativos de desenvolvimento a executar na Plataforma de Desktop do GoOSe Linux.</description>
+    <description xml:lang='ru'>Библиотеки и файлы заголовков для разработки приложений для платформы GoOSe Linux Desktop.</description>
+    <description xml:lang='sv'>Utvecklingshuvuden och bibliotek för utveckling av program som skall köra på GoOSe Linux skrivbordsplattform.</description>
+    <description xml:lang='ta'>GoOSe Linux பணிமேடை ஃப்ளாட்பார்மை இயக்குவதற்கான வளர்ச்சி தலைப்புகள் மற்றும் வளர்ச்சி பயன்பாடுகளுக்கான நூலகங்கள்.</description>
+    <description xml:lang='te'>GoOSe Linux డెస్కుటాప్ ప్లాట్‌ఫాంపైన నడుపుటకు అభివృద్దిపరచే అనువర్తనముల కొరకు అభివృద్దీకరణ హెడర్స్ మరియు లైబ్రరీలు.</description>
+    <description xml:lang='uk'>Бібліотеки та файли заголовків для розробки програм для платформи GoOSe Linux Desktop.</description>
     <description xml:lang='zh_CN'>用来开发在红帽企业版 Linux 桌面平台中运行的应用程序的开发标头和程序库。</description>
-    <description xml:lang='zh_TW'>用來開發在 Red Hat Enterprise Linux 桌面環境平台上執行的應用程式的開發標頭與函式庫。</description>
+    <description xml:lang='zh_TW'>用來開發在 GoOSe Linux 桌面環境平台上執行的應用程式的開發標頭與函式庫。</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -4299,7 +4293,6 @@
     <uservisible>true</uservisible>
     <langonly>fr</langonly>
     <packagelist>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-fr-FR</packagereq>
       <packagereq requires='eclipse-platform' type='conditional'>eclipse-nls-fr</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-fr</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-French</packagereq>
@@ -4863,7 +4856,6 @@
     <uservisible>true</uservisible>
     <langonly>de</langonly>
     <packagelist>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-de-DE</packagereq>
       <packagereq requires='eclipse-platform' type='conditional'>eclipse-nls-de</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-de</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-German</packagereq>
@@ -5179,7 +5171,6 @@
       <packagereq type='mandatory'>lohit-gujarati-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-gujarati</packagereq>
       <packagereq type='mandatory'>m17n-db-gujarati</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-gu-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq type='default'>samyak-gujarati-fonts</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-gu</packagereq>
@@ -5460,7 +5451,6 @@
       <packagereq type='mandatory'>lohit-devanagari-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-hindi</packagereq>
       <packagereq type='mandatory'>m17n-db-hindi</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-hi-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq type='default'>samyak-devanagari-fonts</packagereq>
       <packagereq requires='eclipse-platform' type='conditional'>eclipse-nls-hi</packagereq>
@@ -6208,7 +6198,6 @@
     <uservisible>true</uservisible>
     <langonly>it</langonly>
     <packagelist>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-it-IT</packagereq>
       <packagereq requires='eclipse-platform' type='conditional'>eclipse-nls-it</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-it</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Italian</packagereq>
@@ -6297,7 +6286,6 @@
     <uservisible>true</uservisible>
     <langonly>ja</langonly>
     <packagelist>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-ja-JP</packagereq>
       <packagereq type='default'>ipa-gothic-fonts</packagereq>
       <packagereq type='default'>ipa-mincho-fonts</packagereq>
       <packagereq type='default'>ipa-pgothic-fonts</packagereq>
@@ -6339,31 +6327,31 @@
     <name xml:lang='uk'>Java</name>
     <name xml:lang='zh_CN'>Java 平台</name>
     <name xml:lang='zh_TW'>Java 平台</name>
-    <description>Java support for the Red Hat Enterprise Linux Server and Desktop Platforms.</description>
-    <description xml:lang='as'>Red Hat Enterprise Linux Server আৰু Desktop Platform ৰ বাবে Java সমৰ্থন ।</description>
-    <description xml:lang='bn_IN'>Red Hat Enterprise Linux Server ও Desktop Platform-র জন্য Java সমর্থন।</description>
-    <description xml:lang='de'>Java-Unterstützung für die Red Hat Enterprise Linux- und Desktop-Plattformen.</description>
-    <description xml:lang='es'>Soporte de Java para Servidor de Red Hat Enterprise Linux y plataformas de escritorio.</description>
-    <description xml:lang='fr'>Prise en charge Java pour les plateformes serveur et bureau de Red Hat Enterprise Linux.</description>
-    <description xml:lang='gu'>Red Hat Enterprise Linux સર્વર અને ડેસ્કટોપ પ્લેટફોર્મ માટે Java આધાર.</description>
-    <description xml:lang='hi'>Red Hat Enterprise Linux Server और Desktop प्लैटफॉर्म के लिए जावा स्क्रिप्ट.</description>
-    <description xml:lang='it'>Supporto Java per piattaforme desktop e Red Hat Enterprise Linux Server.</description>
-    <description xml:lang='ja'>Red Hat Enterprise Linux Server Platform と Desktop Platform の Java サポート</description>
-    <description xml:lang='kn'>Red Hat Enterprise Linux ಪರಿಚಾರಕ ಹಾಗು ಗಣಕತೆರೆ ಪ್ಲಾಟ್‌ಫಾರ್ಮುಗಳಿಗಾಗಿನ Java ಬೆಂಬಲ.</description>
-    <description xml:lang='ko'>Red Hat Enterprise Linux 서버와 데스크탑 플랫폼을 위한 자바 지원</description>
-    <description xml:lang='ml'>Red Hat Enterprise Linux സര്‍വര്‍, ഡസ്ക്ടോപ്പ് പ്ലാറ്റ്ഫോമുകള്‍ക്കുള്ള ജാവാ പിന്തുണ.</description>
-    <description xml:lang='mr'>Red Hat Enterprise Linux Server व Desktop Platforms करीता Java समर्थन.</description>
-    <description xml:lang='or'>Red Hat Enterprise Linux ସର୍ଭର ଏବଂ Desktop ପ୍ଲାଟଫର୍ମଗୁଡ଼ିକ ପାଇଁ Java ସମର୍ଥନ।</description>
-    <description xml:lang='pa'>Red Hat Enterprise Linux ਸਰਵਰ ਅਤੇ ਡੈਸਕਟਾਪ ਪਲੇਟਫਾਰਮ ਲਈ ਜਾਵਾ ਸਹਿਯੋਗ।</description>
-    <description xml:lang='pl'>Obsługa języka Java dla platformy serwerowej i pulpitu systemu Red Hat Enterprise Linux.</description>
-    <description xml:lang='pt_BR'>Suporte Java para o Servidor Red Hat Enterprise Linux e Plataformas de Desktop.</description>
-    <description xml:lang='ru'>Поддержка Java для Red Hat Enterprise Linux Server и Desktop.</description>
-    <description xml:lang='sv'>Javastöd för Red Hat Enterprise Linux server- och skrivbordsplattformar.</description>
-    <description xml:lang='ta'>Red Hat Enterprise Linux சேவையகம் மற்றும் பணிமேடை ஃப்ளாட்பார்மிற்கான ஜாவா துணை.</description>
-    <description xml:lang='te'>Red Hat Enterprise Linux సర్వర్ మరియు డెస్కుటాప్ ప్లాట్‌ఫాంల కొరకు జావా మద్దతు.</description>
-    <description xml:lang='uk'>Підтримка Java для Red Hat Enterprise Linux Server та Desktop.</description>
+    <description>Java support for the GoOSe Linux Server and Desktop Platforms.</description>
+    <description xml:lang='as'>GoOSe Linux Server আৰু Desktop Platform ৰ বাবে Java সমৰ্থন ।</description>
+    <description xml:lang='bn_IN'>GoOSe Linux Server ও Desktop Platform-র জন্য Java সমর্থন।</description>
+    <description xml:lang='de'>Java-Unterstützung für die GoOSe Linux- und Desktop-Plattformen.</description>
+    <description xml:lang='es'>Soporte de Java para Servidor de GoOSe Linux y plataformas de escritorio.</description>
+    <description xml:lang='fr'>Prise en charge Java pour les plateformes serveur et bureau de GoOSe Linux.</description>
+    <description xml:lang='gu'>GoOSe Linux સર્વર અને ડેસ્કટોપ પ્લેટફોર્મ માટે Java આધાર.</description>
+    <description xml:lang='hi'>GoOSe Linux Server और Desktop प्लैटफॉर्म के लिए जावा स्क्रिप्ट.</description>
+    <description xml:lang='it'>Supporto Java per piattaforme desktop e GoOSe Linux Server.</description>
+    <description xml:lang='ja'>GoOSe Linux Server Platform と Desktop Platform の Java サポート</description>
+    <description xml:lang='kn'>GoOSe Linux ಪರಿಚಾರಕ ಹಾಗು ಗಣಕತೆರೆ ಪ್ಲಾಟ್‌ಫಾರ್ಮುಗಳಿಗಾಗಿನ Java ಬೆಂಬಲ.</description>
+    <description xml:lang='ko'>GoOSe Linux 서버와 데스크탑 플랫폼을 위한 자바 지원</description>
+    <description xml:lang='ml'>GoOSe Linux സര്‍വര്‍, ഡസ്ക്ടോപ്പ് പ്ലാറ്റ്ഫോമുകള്‍ക്കുള്ള ജാവാ പിന്തുണ.</description>
+    <description xml:lang='mr'>GoOSe Linux Server व Desktop Platforms करीता Java समर्थन.</description>
+    <description xml:lang='or'>GoOSe Linux ସର୍ଭର ଏବଂ Desktop ପ୍ଲାଟଫର୍ମଗୁଡ଼ିକ ପାଇଁ Java ସମର୍ଥନ।</description>
+    <description xml:lang='pa'>GoOSe Linux ਸਰਵਰ ਅਤੇ ਡੈਸਕਟਾਪ ਪਲੇਟਫਾਰਮ ਲਈ ਜਾਵਾ ਸਹਿਯੋਗ।</description>
+    <description xml:lang='pl'>Obsługa języka Java dla platformy serwerowej i pulpitu systemu GoOSe Linux.</description>
+    <description xml:lang='pt_BR'>Suporte Java para o Servidor GoOSe Linux e Plataformas de Desktop.</description>
+    <description xml:lang='ru'>Поддержка Java для GoOSe Linux Server и Desktop.</description>
+    <description xml:lang='sv'>Javastöd för GoOSe Linux server- och skrivbordsplattformar.</description>
+    <description xml:lang='ta'>GoOSe Linux சேவையகம் மற்றும் பணிமேடை ஃப்ளாட்பார்மிற்கான ஜாவா துணை.</description>
+    <description xml:lang='te'>GoOSe Linux సర్వర్ మరియు డెస్కుటాప్ ప్లాట్‌ఫాంల కొరకు జావా మద్దతు.</description>
+    <description xml:lang='uk'>Підтримка Java для GoOSe Linux Server та Desktop.</description>
     <description xml:lang='zh_CN'>红帽企业版 Linux 服务器和桌面平台的 Java 支持。</description>
-    <description xml:lang='zh_TW'>Red Hat Enterprise Linux Server 和 Desktop Platforms 的 Java 支援。</description>
+    <description xml:lang='zh_TW'>GoOSe Linux Server 和 Desktop Platforms 的 Java 支援。</description>
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -6444,7 +6432,6 @@
       <packagereq type='mandatory'>lohit-kannada-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-kannada</packagereq>
       <packagereq type='mandatory'>m17n-db-kannada</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-kn-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-kn</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
@@ -6952,7 +6939,6 @@
     <uservisible>true</uservisible>
     <langonly>ko</langonly>
     <packagelist>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-ko-KR</packagereq>
       <packagereq type='default'>un-core-batang-fonts</packagereq>
       <packagereq type='default'>un-core-dinaru-fonts</packagereq>
       <packagereq type='default'>un-core-dotum-fonts</packagereq>
@@ -8015,7 +8001,6 @@
     <packagelist>
       <packagereq type='mandatory'>m17n-contrib-malayalam</packagereq>
       <packagereq type='mandatory'>m17n-db-malayalam</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-ml-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq type='default'>lohit-malayalam-fonts</packagereq>
       <packagereq type='default'>samyak-malayalam-fonts</packagereq>
@@ -8250,7 +8235,6 @@
     <packagelist>
       <packagereq type='mandatory'>lohit-devanagari-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-marathi</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-mr-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq type='default'>samyak-devanagari-fonts</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-mr</packagereq>
@@ -9053,7 +9037,6 @@
       <packagereq type='mandatory'>lohit-oriya-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-oriya</packagereq>
       <packagereq type='mandatory'>m17n-db-oriya</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-or-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq type='default'>samyak-oriya-fonts</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-or</packagereq>
@@ -9847,7 +9830,6 @@
       <packagereq type='mandatory'>lohit-punjabi-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-punjabi</packagereq>
       <packagereq type='mandatory'>m17n-db-punjabi</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-pa-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq type='default'>saab-fonts</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-pa</packagereq>
@@ -10060,7 +10042,6 @@
     <uservisible>true</uservisible>
     <langonly>ru</langonly>
     <packagelist>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-ru-RU</packagereq>
       <packagereq requires='eclipse-platform' type='conditional'>eclipse-nls-ru</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-ru</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Russian</packagereq>
@@ -10400,31 +10381,31 @@
     <name xml:lang='uk'>Платформа Server</name>
     <name xml:lang='zh_CN'>服务器平台</name>
     <name xml:lang='zh_TW'>伺服器平台</name>
-    <description>Supported libraries for the Red Hat Enterprise Linux Server Platform.</description>
-    <description xml:lang='as'>Red Hat Enterprise Linux Server Platform সমৰ্থনৰ বাবে লাইব্ৰৰি ।</description>
-    <description xml:lang='bn_IN'>Red Hat Enterprise Linux Server Platform সমর্থনের জন্য লাইব্রেরি।</description>
-    <description xml:lang='de'>Unterstützte Bibliotheken für die Red Hat Enterprise Linux Server-Plattform.</description>
-    <description xml:lang='es'>Bibliotecas soportadas para la plataforma de servidor de Red Hat Enterprise Linux </description>
-    <description xml:lang='fr'>Bibliothèques prises en charge pour la plateforme de serveur de Red Hat Enterprise Linux.</description>
-    <description xml:lang='gu'>Red Hat Enterprise Linux સર્વર પ્લેટફોર્મ માટે આધારભૂત લાઇબ્રેરીઓ.</description>
-    <description xml:lang='hi'>Red Hat Enterprise Linux सर्वर प्लैटफॉर्म के लिए समर्थित लाइब्रेरी.</description>
-    <description xml:lang='it'>Librerie supportate per il Red Hat Enterprise Linux Server Platform.</description>
-    <description xml:lang='ja'>Red Hat Enterprise Linux Server Platform のサポート対象ライブラリです。</description>
-    <description xml:lang='kn'>Red Hat Enterprise Linux ಸರ್ವರ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮಿಗಾಗಿ ಬೆಂಬಲಿತ ಲೈಬ್ರರಿಗಳು.</description>
-    <description xml:lang='ko'>Red Hat Enterprise Linux 서버 플랫폼을 위한 지원 라이브러리.</description>
-    <description xml:lang='ml'>Red Hat Enterprise Linux സര്‍വര്‍ പ്ലാറ്റ്ഫോം പിന്തുണയ്ക്കുന്നതിനുള്ള ലൈബ്രറികള്‍.</description>
-    <description xml:lang='mr'>Red Hat Enterprise Linux Server Platform करीता समर्थीत लाइब्ररीज्.</description>
-    <description xml:lang='or'>Red Hat Enterprise Linux ସର୍ଭର ପ୍ଲାଟଫର୍ମ ପାଇଁ ସମର୍ଥିତ ଲାଇବ୍ରେରୀ।</description>
-    <description xml:lang='pa'>Red Hat Enterprise Linux ਸਰਵਰ ਪਲੇਟਫਾਰਮ ਲਈ ਸਹਿਯੋਗ ਲਾਇਬਰੇਰੀਆਂ।</description>
-    <description xml:lang='pl'>Obsługiwane biblioteki platformy serwerowej systemu Red Hat Enterprise Linux.</description>
-    <description xml:lang='pt_BR'>Bibliotecas suportadas para o Red Hat Enterprise Linux Server Platform.</description>
-    <description xml:lang='ru'>Поддерживаемые библиотеки для Red Hat Enterprise Linux Server.</description>
-    <description xml:lang='sv'>Stödda bibliotek för Red Hat Enterprise Linux serverplattform.</description>
-    <description xml:lang='ta'>Red Hat Enterprise Linux சேவையக ஃப்ளாட்பார்மிற்கு துணைபுரிகிற நூலகங்கள்.</description>
-    <description xml:lang='te'>Red Hat Enterprise Linux సర్వర్ ప్లాట్‌ఫాంకు మద్దతించు లైబ్రరీలు.</description>
-    <description xml:lang='uk'>Підтримувані бібліотеки для Red Hat Enterprise Linux Server.</description>
+    <description>Supported libraries for the GoOSe Linux Server Platform.</description>
+    <description xml:lang='as'>GoOSe Linux Server Platform সমৰ্থনৰ বাবে লাইব্ৰৰি ।</description>
+    <description xml:lang='bn_IN'>GoOSe Linux Server Platform সমর্থনের জন্য লাইব্রেরি।</description>
+    <description xml:lang='de'>Unterstützte Bibliotheken für die GoOSe Linux Server-Plattform.</description>
+    <description xml:lang='es'>Bibliotecas soportadas para la plataforma de servidor de GoOSe Linux </description>
+    <description xml:lang='fr'>Bibliothèques prises en charge pour la plateforme de serveur de GoOSe Linux.</description>
+    <description xml:lang='gu'>GoOSe Linux સર્વર પ્લેટફોર્મ માટે આધારભૂત લાઇબ્રેરીઓ.</description>
+    <description xml:lang='hi'>GoOSe Linux सर्वर प्लैटफॉर्म के लिए समर्थित लाइब्रेरी.</description>
+    <description xml:lang='it'>Librerie supportate per il GoOSe Linux Server Platform.</description>
+    <description xml:lang='ja'>GoOSe Linux Server Platform のサポート対象ライブラリです。</description>
+    <description xml:lang='kn'>GoOSe Linux ಸರ್ವರ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮಿಗಾಗಿ ಬೆಂಬಲಿತ ಲೈಬ್ರರಿಗಳು.</description>
+    <description xml:lang='ko'>GoOSe Linux 서버 플랫폼을 위한 지원 라이브러리.</description>
+    <description xml:lang='ml'>GoOSe Linux സര്‍വര്‍ പ്ലാറ്റ്ഫോം പിന്തുണയ്ക്കുന്നതിനുള്ള ലൈബ്രറികള്‍.</description>
+    <description xml:lang='mr'>GoOSe Linux Server Platform करीता समर्थीत लाइब्ररीज्.</description>
+    <description xml:lang='or'>GoOSe Linux ସର୍ଭର ପ୍ଲାଟଫର୍ମ ପାଇଁ ସମର୍ଥିତ ଲାଇବ୍ରେରୀ।</description>
+    <description xml:lang='pa'>GoOSe Linux ਸਰਵਰ ਪਲੇਟਫਾਰਮ ਲਈ ਸਹਿਯੋਗ ਲਾਇਬਰੇਰੀਆਂ।</description>
+    <description xml:lang='pl'>Obsługiwane biblioteki platformy serwerowej systemu GoOSe Linux.</description>
+    <description xml:lang='pt_BR'>Bibliotecas suportadas para o GoOSe Linux Server Platform.</description>
+    <description xml:lang='ru'>Поддерживаемые библиотеки для GoOSe Linux Server.</description>
+    <description xml:lang='sv'>Stödda bibliotek för GoOSe Linux serverplattform.</description>
+    <description xml:lang='ta'>GoOSe Linux சேவையக ஃப்ளாட்பார்மிற்கு துணைபுரிகிற நூலகங்கள்.</description>
+    <description xml:lang='te'>GoOSe Linux సర్వర్ ప్లాట్‌ఫాంకు మద్దతించు లైబ్రరీలు.</description>
+    <description xml:lang='uk'>Підтримувані бібліотеки для GoOSe Linux Server.</description>
     <description xml:lang='zh_CN'>支持的用于红帽企业版 Linux 服务器平台的程序库。</description>
-    <description xml:lang='zh_TW'>受支援的 Red Hat Enterprise Linux 伺服器平台函式庫。</description>
+    <description xml:lang='zh_TW'>受支援的 GoOSe Linux 伺服器平台函式庫。</description>
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -10470,31 +10451,31 @@
     <name xml:lang='uk'>Засоби розробки для платформи Server</name>
     <name xml:lang='zh_CN'>服务器平台开发</name>
     <name xml:lang='zh_TW'>伺服器平台開發</name>
-    <description>Development headers and libraries for developing applications to run on the Red Hat Enterprise Linux Server Platform.</description>
-    <description xml:lang='as'>Red Hat Enterprise Linux Server Platform-ত সঞ্চালনযোগ্য অনুপ্ৰয়োগ নিৰ্মাণৰ বাবে ব্যৱহাৰযোগ্য হেডাৰ আৰু লাইব্ৰৰি ।</description>
-    <description xml:lang='bn_IN'>Red Hat Enterprise Linux Server Platform-র মধ্যে সঞ্চালনযোগ্য অ্যাপ্লিকেশন নির্মাণের জন্য ব্যবহারযোগ্য হেডার ও লাইব্রেরি।</description>
-    <description xml:lang='de'>Entwicklungs-Header-Dateien und -Bibliotheken zur Entwicklung von Anwendungen, die auf der Red Hat Enterprise Linux Server-Plattform laufen sollen.</description>
-    <description xml:lang='es'>Cabeceras de desarrollo y bibliotecas para desarrollar aplicaciones para ejecutar en la plataforma de servidor de Red Hat Enterprise Linux.</description>
-    <description xml:lang='fr'>En-têtes et bibliothèques de développement pour développer des applications à exécuter sur la plateforme de serveur Red Hat Enterprise Linux.</description>
-    <description xml:lang='gu'>Red Hat Enterprise Linux સર્વર પ્લેટફોર્મ પર ચલાવવા માટે કાર્યક્રમોને વિકસાવવા માટે વિકાસ શીર્ષકો અને લાઇબ્રેરીઓ.</description>
-    <description xml:lang='hi'>Red Hat Enterprise Linux सर्वर प्लैटफॉर्म पर चलने के लिए डेस्कटॉप अनुप्रयोगों के लिए विकास शीर्षिका और लाइब्रेरी.</description>
-    <description xml:lang='it'>Librerie ed intestazioni di sviluppo per lo sviluppo di applicazioni da eseguire su Red Hat Enterprise Linux Server Platform.</description>
-    <description xml:lang='ja'>Red Hat Enterprise Linux Server Platform 上で実行するアプリケーションを開発するための開発ヘッダおよびライブラリ</description>
-    <description xml:lang='kn'>Red Hat Enterprise Linux ಸರ್ವರ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮಿನಲ್ಲಿ ಚಲಾಯಿಸಲು ಅನ್ವಯಗಳನ್ನು ವಿಕಸನಗೊಳಿಸಲು ವಿಕಸನಾ ಹೆಡರುಗಳು ಹಾಗು ಲೈಬ್ರರಿಗಳು.</description>
-    <description xml:lang='ko'>Red Hat Enterprise Linux 서버 플랫폼에서 실행될 프로그램을 개발하기 위한 개발 헤더와 라이브러리</description>
-    <description xml:lang='ml'>Red Hat Enterprise Linux സര്‍വര്‍ പ്ലാറ്റ്ഫോമില്‍ പ്രവര്‍ത്തിക്കുന്നതിനായി പ്രയോഗങ്ങള്‍ സജ്ജമാക്കുന്നതിനുള്ള ഡവലപ്മെന്റ് ഹെഡറുകളും ലൈബ്രറികളും.</description>
-    <description xml:lang='mr'>Red Hat Enterprise Linux Server Platfom वरील ऍप्लिकेशन्स् चालवण्याकरीता डेव्हलपमेंट हेड्डर्स व लाइब्ररीज्.</description>
-    <description xml:lang='or'>Red Hat Enterprise Linux ସର୍ଭର ପ୍ଲାଟଫର୍ମରେ ଚଲାଇବା ପାଇଁ ପ୍ରୟୋଗଗୁଡ଼ିକୁ ବିକାଶ କରିବା ପାଇଁ ବିକାଶ ଶୀର୍ଷକ ଏବଂ ଲାଇବ୍ରେରୀଗୁଡ଼ିକ।</description>
-    <description xml:lang='pa'>Red Hat Enterprise Linux ਸਰਵਰ ਪਲੇਟਫਾਰਮ ਤੇ ਚੱਲਣ ਵਾਲੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਡਿਵੈਲਪ ਕਰਨ ਲਈ ਡਿਵੈਲਪਮੈਂਟ ਹੈਡਰ ਅਤੇ ਲਾਇਬਰੇਰੀਆਂ।</description>
-    <description xml:lang='pl'>Nagłówki i biblioteki do tworzenia aplikacji uruchamianych w platformie serwerowej systemu Red Hat Enterprise Linux.</description>
-    <description xml:lang='pt_BR'>Cabeçalhos e bibliotecas de desenvolvimento para aplicativos de desenvolvimento a executar na Plataforma de Servidor do Red Hat Enterprise Linux.</description>
-    <description xml:lang='ru'>Библиотеки и файлы заголовков для разработки приложений для платформы Red Hat Enterprise Linux Server.</description>
-    <description xml:lang='sv'>Utvecklingshuvuden och bibliotek för att utveckla program som skall köra på Red Hat Enterprise Linux serverplattform.</description>
-    <description xml:lang='ta'>Red Hat Enterprise Linux சேவையக ஃப்ளாட்பார்மை இயக்குவதற்கான வளர்ச்சி தலைப்புகள் மற்றும் வளர்ச்சி பயன்பாடுகளுக்கான நூலகங்கள்.</description>
-    <description xml:lang='te'>Red Hat Enterprise Linux సర్వర్ ప్లాట్‌ఫాంపైన నడుపుటకు అభివృద్దిపరచే అనువర్తనముల కొరకు అభివృద్దీకరణ హెడర్స్ మరియు లైబ్రరీలు.</description>
-    <description xml:lang='uk'>Бібліотеки та файли заголовків для розробки програм для платформи Red Hat Enterprise Linux Server.</description>
+    <description>Development headers and libraries for developing applications to run on the GoOSe Linux Server Platform.</description>
+    <description xml:lang='as'>GoOSe Linux Server Platform-ত সঞ্চালনযোগ্য অনুপ্ৰয়োগ নিৰ্মাণৰ বাবে ব্যৱহাৰযোগ্য হেডাৰ আৰু লাইব্ৰৰি ।</description>
+    <description xml:lang='bn_IN'>GoOSe Linux Server Platform-র মধ্যে সঞ্চালনযোগ্য অ্যাপ্লিকেশন নির্মাণের জন্য ব্যবহারযোগ্য হেডার ও লাইব্রেরি।</description>
+    <description xml:lang='de'>Entwicklungs-Header-Dateien und -Bibliotheken zur Entwicklung von Anwendungen, die auf der GoOSe Linux Server-Plattform laufen sollen.</description>
+    <description xml:lang='es'>Cabeceras de desarrollo y bibliotecas para desarrollar aplicaciones para ejecutar en la plataforma de servidor de GoOSe Linux.</description>
+    <description xml:lang='fr'>En-têtes et bibliothèques de développement pour développer des applications à exécuter sur la plateforme de serveur GoOSe Linux.</description>
+    <description xml:lang='gu'>GoOSe Linux સર્વર પ્લેટફોર્મ પર ચલાવવા માટે કાર્યક્રમોને વિકસાવવા માટે વિકાસ શીર્ષકો અને લાઇબ્રેરીઓ.</description>
+    <description xml:lang='hi'>GoOSe Linux सर्वर प्लैटफॉर्म पर चलने के लिए डेस्कटॉप अनुप्रयोगों के लिए विकास शीर्षिका और लाइब्रेरी.</description>
+    <description xml:lang='it'>Librerie ed intestazioni di sviluppo per lo sviluppo di applicazioni da eseguire su GoOSe Linux Server Platform.</description>
+    <description xml:lang='ja'>GoOSe Linux Server Platform 上で実行するアプリケーションを開発するための開発ヘッダおよびライブラリ</description>
+    <description xml:lang='kn'>GoOSe Linux ಸರ್ವರ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮಿನಲ್ಲಿ ಚಲಾಯಿಸಲು ಅನ್ವಯಗಳನ್ನು ವಿಕಸನಗೊಳಿಸಲು ವಿಕಸನಾ ಹೆಡರುಗಳು ಹಾಗು ಲೈಬ್ರರಿಗಳು.</description>
+    <description xml:lang='ko'>GoOSe Linux 서버 플랫폼에서 실행될 프로그램을 개발하기 위한 개발 헤더와 라이브러리</description>
+    <description xml:lang='ml'>GoOSe Linux സര്‍വര്‍ പ്ലാറ്റ്ഫോമില്‍ പ്രവര്‍ത്തിക്കുന്നതിനായി പ്രയോഗങ്ങള്‍ സജ്ജമാക്കുന്നതിനുള്ള ഡവലപ്മെന്റ് ഹെഡറുകളും ലൈബ്രറികളും.</description>
+    <description xml:lang='mr'>GoOSe Linux Server Platfom वरील ऍप्लिकेशन्स् चालवण्याकरीता डेव्हलपमेंट हेड्डर्स व लाइब्ररीज्.</description>
+    <description xml:lang='or'>GoOSe Linux ସର୍ଭର ପ୍ଲାଟଫର୍ମରେ ଚଲାଇବା ପାଇଁ ପ୍ରୟୋଗଗୁଡ଼ିକୁ ବିକାଶ କରିବା ପାଇଁ ବିକାଶ ଶୀର୍ଷକ ଏବଂ ଲାଇବ୍ରେରୀଗୁଡ଼ିକ।</description>
+    <description xml:lang='pa'>GoOSe Linux ਸਰਵਰ ਪਲੇਟਫਾਰਮ ਤੇ ਚੱਲਣ ਵਾਲੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਡਿਵੈਲਪ ਕਰਨ ਲਈ ਡਿਵੈਲਪਮੈਂਟ ਹੈਡਰ ਅਤੇ ਲਾਇਬਰੇਰੀਆਂ।</description>
+    <description xml:lang='pl'>Nagłówki i biblioteki do tworzenia aplikacji uruchamianych w platformie serwerowej systemu GoOSe Linux.</description>
+    <description xml:lang='pt_BR'>Cabeçalhos e bibliotecas de desenvolvimento para aplicativos de desenvolvimento a executar na Plataforma de Servidor do GoOSe Linux.</description>
+    <description xml:lang='ru'>Библиотеки и файлы заголовков для разработки приложений для платформы GoOSe Linux Server.</description>
+    <description xml:lang='sv'>Utvecklingshuvuden och bibliotek för att utveckla program som skall köra på GoOSe Linux serverplattform.</description>
+    <description xml:lang='ta'>GoOSe Linux சேவையக ஃப்ளாட்பார்மை இயக்குவதற்கான வளர்ச்சி தலைப்புகள் மற்றும் வளர்ச்சி பயன்பாடுகளுக்கான நூலகங்கள்.</description>
+    <description xml:lang='te'>GoOSe Linux సర్వర్ ప్లాట్‌ఫాంపైన నడుపుటకు అభివృద్దిపరచే అనువర్తనముల కొరకు అభివృద్దీకరణ హెడర్స్ మరియు లైబ్రరీలు.</description>
+    <description xml:lang='uk'>Бібліотеки та файли заголовків для розробки програм для платформи GoOSe Linux Server.</description>
     <description xml:lang='zh_CN'>用来开发在红帽企业版 Linux 服务器平台中运行的应用程序的开发标头和程序库。</description>
-    <description xml:lang='zh_TW'>用來開發在 Red Hat Enterprise Linux 伺服器平台上執行的應用程式的開發標頭與函式庫。</description>
+    <description xml:lang='zh_TW'>用來開發在 GoOSe Linux 伺服器平台上執行的應用程式的開發標頭與函式庫。</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -10554,7 +10535,7 @@
     <description xml:lang='pa'>ਸਰਵਰ ਵੇਰੀਏਟਾਂ ਲਈ ਪਾਲਿਸੀ ਪੈਕੇਜ।</description>
     <description xml:lang='pl'>Pakiety polityki dla wariantu serwerowego.</description>
     <description xml:lang='pt_BR'>Pacotes de política para a variante do Servidor.</description>
-    <description xml:lang='ru'>Пакеты политики для Red Hat Enterprise Linux Server.</description>
+    <description xml:lang='ru'>Пакеты политики для GoOSe Linux Server.</description>
     <description xml:lang='ta'>சேவையக வேறுப்பாட்டிற்கான கொள்கை தொகுப்புகள்.</description>
     <description xml:lang='te'>సర్వర్ వేరియంట్ కొరకు విధానపు ప్యాకేజీలు.</description>
     <description xml:lang='zh_CN'>服务器变体的策略软件包。</description>
@@ -10606,7 +10587,6 @@
     <packagelist>
       <packagereq type='mandatory'>lohit-devanagari-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-sindhi</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-pa-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
     </packagelist>
@@ -10681,7 +10661,6 @@
       <packagereq type='mandatory'>lklug-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-sinhala</packagereq>
       <packagereq type='mandatory'>m17n-db-sinhala</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-si-LK</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-si</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-m17n</packagereq>
       <packagereq requires='xorg-x11-server-Xorg' type='conditional'>ibus-sayura</packagereq>
@@ -11189,7 +11168,6 @@
     <uservisible>true</uservisible>
     <langonly>es</langonly>
     <packagelist>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-es-ES</packagereq>
       <packagereq requires='eclipse-platform' type='conditional'>eclipse-nls-es</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-es</packagereq>
       <packagereq requires='kdelibs3' type='conditional'>kde-i18n-Spanish</packagereq>
@@ -11954,29 +11932,29 @@
     <name xml:lang='te'>వెబ్-ఆధారిత ఎంటర్‌ప్రైజ్ నిర్వహణ</name>
     <name xml:lang='zh_CN'>基于网页的企业级管理</name>
     <name xml:lang='zh_TW'>基於網站的企業管理</name>
-    <description>WBEM interface for Red Hat Enterprise Linux.</description>
-    <description xml:lang='bn_IN'>Red Hat Enterprise Linux-র জন্য WBEM প্রেক্ষাপট।</description>
-    <description xml:lang='de'>WBEM-Schnittstelle für Red Hat Enterprise Linux.</description>
-    <description xml:lang='es'>Interfaz WBEM para Red Hat Enterprise Linux.</description>
-    <description xml:lang='fr'>Interface WBEM de Red Hat Enterprise Linux.</description>
-    <description xml:lang='gu'>Red Hat Enterprise Linux માટે WBEM ઇન્ટરફેસ.</description>
-    <description xml:lang='hi'>Red Hat Enterprise Linux का WBEM संस्थापन.</description>
-    <description xml:lang='it'>Interfaccia WBEM per Red Hat Enterprise Linux.</description>
-    <description xml:lang='ja'>Red Hat Enterprise Linux の WBEM インターフェイス</description>
-    <description xml:lang='kn'>Red Hat Enterprise Linux ಗಾಗಿನ WBEM ಸಂಪರ್ಕಸಾಧನ.</description>
-    <description xml:lang='ko'>Red Hat Enterprise Linux WBEM 인터페이스</description>
-    <description xml:lang='ml'>Red Hat Enterprise Linux-നുള്ള WBEM ഇന്റര്‍ഫെയിസ്</description>
-    <description xml:lang='mr'>Red Hat Enterprise Linux करीता WBEM संवाद.</description>
-    <description xml:lang='or'>Red Hat Enterprise Linux ପାଇଁ WBEM ଅନ୍ତରାପୃଷ୍ଠ।</description>
-    <description xml:lang='pa'>Red Hat Enterprise Linux ਦੀ WBEM ਇੰਟਰਫੇਸ।</description>
-    <description xml:lang='pl'>Interfejs WBEM dla systemu Red Hat Enterprise Linux.</description>
-    <description xml:lang='pt_BR'>Interface de WBEM para o Red Hat Enterprise Linux</description>
-    <description xml:lang='ru'>Интерфейс WBEM для Red Hat Enterprise Linux</description>
-    <description xml:lang='sv'>WBEM-gränssnitt för Red Hat Enterprise Linux.</description>
-    <description xml:lang='ta'>Red Hat Enterprise Linuxக்கான WBEM முகப்பு.</description>
-    <description xml:lang='te'>Red Hat Enterprise Linux కొరకు WBEM యింటర్ఫేస్.</description>
+    <description>WBEM interface for GoOSe Linux.</description>
+    <description xml:lang='bn_IN'>GoOSe Linux-র জন্য WBEM প্রেক্ষাপট।</description>
+    <description xml:lang='de'>WBEM-Schnittstelle für GoOSe Linux.</description>
+    <description xml:lang='es'>Interfaz WBEM para GoOSe Linux.</description>
+    <description xml:lang='fr'>Interface WBEM de GoOSe Linux.</description>
+    <description xml:lang='gu'>GoOSe Linux માટે WBEM ઇન્ટરફેસ.</description>
+    <description xml:lang='hi'>GoOSe Linux का WBEM संस्थापन.</description>
+    <description xml:lang='it'>Interfaccia WBEM per GoOSe Linux.</description>
+    <description xml:lang='ja'>GoOSe Linux の WBEM インターフェイス</description>
+    <description xml:lang='kn'>GoOSe Linux ಗಾಗಿನ WBEM ಸಂಪರ್ಕಸಾಧನ.</description>
+    <description xml:lang='ko'>GoOSe Linux WBEM 인터페이스</description>
+    <description xml:lang='ml'>GoOSe Linux-നുള്ള WBEM ഇന്റര്‍ഫെയിസ്</description>
+    <description xml:lang='mr'>GoOSe Linux करीता WBEM संवाद.</description>
+    <description xml:lang='or'>GoOSe Linux ପାଇଁ WBEM ଅନ୍ତରାପୃଷ୍ଠ।</description>
+    <description xml:lang='pa'>GoOSe Linux ਦੀ WBEM ਇੰਟਰਫੇਸ।</description>
+    <description xml:lang='pl'>Interfejs WBEM dla systemu GoOSe Linux.</description>
+    <description xml:lang='pt_BR'>Interface de WBEM para o GoOSe Linux</description>
+    <description xml:lang='ru'>Интерфейс WBEM для GoOSe Linux</description>
+    <description xml:lang='sv'>WBEM-gränssnitt för GoOSe Linux.</description>
+    <description xml:lang='ta'>GoOSe Linuxக்கான WBEM முகப்பு.</description>
+    <description xml:lang='te'>GoOSe Linux కొరకు WBEM యింటర్ఫేస్.</description>
     <description xml:lang='zh_CN'>红帽企业版 Linux 的 WBEM 界面。</description>
-    <description xml:lang='zh_TW'>Red Hat Enterprise Linux 的 WBEM 介面。</description>
+    <description xml:lang='zh_TW'>GoOSe Linux 的 WBEM 介面。</description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -12200,7 +12178,6 @@
       <packagereq type='mandatory'>lohit-tamil-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-tamil</packagereq>
       <packagereq type='mandatory'>m17n-db-tamil</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-ta-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq type='default'>samyak-tamil-fonts</packagereq>
       <packagereq requires='hunspell' type='conditional'>hunspell-ta</packagereq>
@@ -12345,7 +12322,6 @@
       <packagereq type='mandatory'>lohit-telugu-fonts</packagereq>
       <packagereq type='mandatory'>m17n-contrib-telugu</packagereq>
       <packagereq type='mandatory'>m17n-db-telugu</packagereq>
-      <packagereq type='default'>Red_Hat_Enterprise_Linux-Release_Notes-6-te-IN</packagereq>
       <packagereq type='default'>iok</packagereq>
       <packagereq type='default'>pothana2000-fonts</packagereq>
       <packagereq type='default'>vemana2000-fonts</packagereq>
