@@ -881,7 +881,7 @@
       <packagereq type='mandatory'>pciutils</packagereq>
       <packagereq type='mandatory'>psacct</packagereq>
       <packagereq type='mandatory'>quota</packagereq>
-      <packagereq type='mandatory'>redhat-indexhtml</packagereq>
+      <packagereq type='mandatory'>goose-indexhtml</packagereq>
       <packagereq type='mandatory'>setserial</packagereq>
       <packagereq type='mandatory'>tmpwatch</packagereq>
       <packagereq type='mandatory'>traceroute</packagereq>
@@ -5229,6 +5229,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type='default'>mcelog</packagereq>
       <packagereq type='default'>smartmontools</packagereq>
       <packagereq type='optional'>edac-utils</packagereq>
       <packagereq type='optional'>lm_sensors</packagereq>
@@ -5765,15 +5766,24 @@
       <packagereq type='mandatory'>librdmacm</packagereq>
       <packagereq type='mandatory'>librdmacm-utils</packagereq>
       <packagereq type='mandatory'>rdma</packagereq>
+      <packagereq type='default'>dapl</packagereq>
+      <packagereq type='default'>ibsim</packagereq>
+      <packagereq type='default'>ibutils</packagereq>
       <packagereq type='default'>libcxgb3</packagereq>
       <packagereq type='default'>libibmad</packagereq>
       <packagereq type='default'>libibumad</packagereq>
+      <packagereq type='default'>libipathverbs</packagereq>
       <packagereq type='default'>libmlx4</packagereq>
       <packagereq type='default'>libmthca</packagereq>
       <packagereq type='default'>rds-tools</packagereq>
+      <packagereq type='optional'>compat-dapl</packagereq>
+      <packagereq type='optional'>infiniband-diags</packagereq>
       <packagereq type='optional'>libibcommon</packagereq>
       <packagereq type='optional'>mstflint</packagereq>
       <packagereq type='optional'>opensm</packagereq>
+      <packagereq type='optional'>perftest</packagereq>
+      <packagereq type='optional'>qperf</packagereq>
+      <packagereq type='optional'>srptools</packagereq>
     </packagelist>
   </group>
   <group>
@@ -10202,6 +10212,10 @@
       <packagereq type='optional'>atlas</packagereq>
       <packagereq type='optional'>lapack</packagereq>
       <packagereq type='optional'>mpich2</packagereq>
+      <packagereq type='optional'>mpitests-mvapich</packagereq>
+      <packagereq type='optional'>mpitests-mvapich2</packagereq>
+      <packagereq type='optional'>mpitests-openmpi</packagereq>
+      <packagereq type='optional'>mvapich</packagereq>
       <packagereq type='optional'>mvapich2</packagereq>
       <packagereq type='optional'>numpy</packagereq>
       <packagereq type='optional'>openmpi</packagereq>
@@ -13394,7 +13408,10 @@
     <description xml:lang='zh_TW'>提供了一個用來 host 虛擬化客座端的環境。</description>
     <default>false</default>
     <uservisible>true</uservisible>
-    <packagelist/>
+    <packagelist>
+      <packagereq type='mandatory'>qemu-kvm</packagereq>
+      <packagereq type='optional'>qemu-kvm-tools</packagereq>
+    </packagelist>
   </group>
   <group>
     <id>virtualization-client</id>
@@ -13575,7 +13592,13 @@
     <description xml:lang='zh_TW'>用來進行離線虛擬映像檔管理的工具。</description>
     <default>false</default>
     <uservisible>true</uservisible>
-    <packagelist/>
+    <packagelist>
+      <packagereq type='default'>libguestfs</packagereq>
+      <packagereq type='optional'>libguestfs-java</packagereq>
+      <packagereq type='optional'>libguestfs-mount</packagereq>
+      <packagereq type='optional'>libguestfs-tools</packagereq>
+      <packagereq type='optional'>virt-v2v</packagereq>
+    </packagelist>
   </group>
   <group>
     <id>walloon-support</id>

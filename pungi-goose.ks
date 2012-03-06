@@ -33,11 +33,9 @@ kernel*
 # Desktop Packages
 @kde-desktop
 echo-icon-theme
-tracker
 swfdec
 libflashsupport
 nspluginwrapper
-liferea
 esc
 thunderbird
 # apps
