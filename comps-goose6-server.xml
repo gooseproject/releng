@@ -1082,7 +1082,6 @@
       <packagereq type='default'>orca</packagereq>
       <packagereq type='default'>pulseaudio-module-gconf</packagereq>
       <packagereq type='default'>pulseaudio-module-x11</packagereq>
-      <packagereq type='default'>rhn-setup-gnome</packagereq>
       <packagereq type='default'>vino</packagereq>
       <packagereq type='optional'>control-center-extra</packagereq>
       <packagereq type='optional'>sabayon-apply</packagereq>
@@ -2426,7 +2425,6 @@
       <packagereq type='mandatory'>ql23xx-firmware</packagereq>
       <packagereq type='mandatory'>ql2400-firmware</packagereq>
       <packagereq type='mandatory'>ql2500-firmware</packagereq>
-      <packagereq type='mandatory'>rhnsd</packagereq>
       <packagereq type='mandatory'>rootfiles</packagereq>
       <packagereq type='mandatory'>rpm</packagereq>
       <packagereq type='mandatory'>rsyslog</packagereq>
@@ -2440,7 +2438,6 @@
       <packagereq type='mandatory'>vim-minimal</packagereq>
       <packagereq type='mandatory'>xorg-x11-drv-ati-firmware</packagereq>
       <packagereq type='mandatory'>yum</packagereq>
-      <packagereq type='mandatory'>yum-rhn-plugin</packagereq>
       <packagereq type='mandatory'>zd1211-firmware</packagereq>
       <packagereq type='default'>efibootmgr</packagereq>
       <packagereq type='default'>grub</packagereq>
@@ -4689,7 +4686,6 @@
       <packagereq type='default'>mousetweaks</packagereq>
       <packagereq type='default'>nautilus-open-terminal</packagereq>
       <packagereq type='default'>nautilus-sendto</packagereq>
-      <packagereq type='default'>rhn-setup-gnome</packagereq>
       <packagereq type='default'>rhythmbox</packagereq>
       <packagereq type='default'>scenery-backgrounds</packagereq>
       <packagereq type='default'>seahorse</packagereq>
@@ -6692,7 +6688,6 @@
       <packagereq type='default'>ksig</packagereq>
       <packagereq type='default'>ksshaskpass</packagereq>
       <packagereq type='default'>pinentry-qt</packagereq>
-      <packagereq type='default'>rhn-setup-gnome</packagereq>
       <packagereq type='optional'>kdebase-workspace-akonadi</packagereq>
       <packagereq type='optional'>kdebase-workspace-python-applet</packagereq>
       <packagereq requires='ibus' type='conditional'>ibus-qt</packagereq>
