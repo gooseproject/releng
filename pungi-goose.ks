@@ -32,9 +32,6 @@ kernel*
 -syslog-ng
 # Desktop Packages
 @kde-desktop
-echo-icon-theme
-swfdec
-libflashsupport
 nspluginwrapper
 esc
 thunderbird
@@ -52,7 +49,6 @@ wireshark-gnome
 @desktop-platform-devel
 @java-platform
 @web-services
-@x-software-development
 # Server packages
 @network-server
 @ftp-server
