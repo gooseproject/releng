@@ -2,3 +2,7 @@
 *.py[co]
 gl6/
 cache/
+epel-6/
+GoOSe-6*/
+i386/
+x86_64/
