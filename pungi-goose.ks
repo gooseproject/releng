@@ -31,6 +31,8 @@ kernel*
 -kernel-kdump*
 -syslog-ng
 # Desktop Packages
+@x11
+@basic-desktop
 @kde-desktop
 nspluginwrapper
 esc
@@ -57,10 +59,10 @@ wireshark-gnome
 @network-server
 @graphical-admin-tools
 @cifs-file-server
-@databases --optional
-@web-server --optional
+@databases
+@web-server
 # Virt group
-@virtualization --optional
+@virtualization
 # filesystem stuff
 #reiserfs-utils
 #xfsprogs
