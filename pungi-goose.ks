@@ -25,6 +25,7 @@ repo --name=GoOSe-6-src --baseurl=http://koji.gooselinux.org/releases/sketchy/6/
 %packages --default
 # core
 tcsh
+goose-release
 ntp
 kernel*
 -kernel*debug*
