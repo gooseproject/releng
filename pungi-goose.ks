@@ -34,16 +34,26 @@ kernel*
 -syslog-ng
 # Desktop Packages
 @x11
+@legacy-x
 @basic-desktop
+@general-desktop
 @kde-desktop
+nautilus-open-terminal
 nspluginwrapper
 esc
 thunderbird
+@desktop-debugging
+@desktop-platform
 # apps
 @technical-writing
 @eclipse
+@internet-browser
+@console-internet
+@remote-desktop-client
+@system-admin-tools
 joe
-emacs
+@emacs
+@tex
 k3b
 @network-tools
 wireshark-gnome
@@ -54,21 +64,38 @@ wireshark-gnome
 @java-platform
 @web-services
 # Server packages
+@server-platform
 @network-server
 @ftp-server
 @mail-server
 @mysql
+@mysql-client
+@postgresql
+@postgresql-client
 @network-server
 @graphical-admin-tools
 @cifs-file-server
 @databases
 @web-server
+@web-servlet
+@php
+@turbogears
+@large-systems
+@perl-runtime
 # Virt group
 @virtualization
-# filesystem stuff
-#reiserfs-utils
-#xfsprogs
-#jfsutils
+@virtualization-client
+@virtualization-platform
+# Useful miscellany
+@fonts
+@print-client
+@input-methods
+@directory-client
+@network-file-system-client
+@debugging
+@hardware-monitoring
+@performance
+
 # Languages
 @afrikaans-support
 @albanian-support
