@@ -5935,6 +5935,8 @@
   </group>
   <group>
     <id>internet-browser</id>
+    <default>true</default>
+    <uservisible>true</uservisible>
     <name>Internet Browser</name>
     <name xml:lang='bn_IN'>ইন্টারনেট ব্রাউজার</name>
     <name xml:lang='de'>Internet-Browser</name>
@@ -5981,10 +5983,8 @@
     <description xml:lang='te'>ఫైర్‌ఫాక్స్ వెబ్ బ్రౌజర్</description>
     <description xml:lang='zh_CN'>Firefox 网页浏览器</description>
     <description xml:lang='zh_TW'>Firefox 網站瀏覽器</description>
-    <default>false</default>
-    <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type='default'>firefox</packagereq>
+      <packagereq type='mandatory'>firefox</packagereq>
       <packagereq type='default'>nspluginwrapper</packagereq>
       <packagereq type='default'>totem-mozplugin</packagereq>
     </packagelist>

@@ -41,6 +41,7 @@ kernel*
 nautilus-open-terminal
 nspluginwrapper
 esc
+firefox
 thunderbird
 @desktop-debugging
 @desktop-platform
