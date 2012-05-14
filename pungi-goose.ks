@@ -14,8 +14,8 @@
 
 #############################################################################
 # Add the repos you wish to use to compose here.  At least one of them needs group data.
-repo --name=GoOSe-6 --baseurl=http://koji.gooselinux.org/releases/sketchy/6/Everything/$basearch/os/
-repo --name=GoOSe-6-src --baseurl=http://koji.gooselinux.org/releases/sketchy/6/Everything/source/SRPMS/
+repo --name=GoOSe-6 --baseurl=http://koji.gooselinux.org/releases/6/Everything/$basearch/os/
+repo --name=GoOSe-6-src --baseurl=http://koji.gooselinux.org/releases/6/Everything/source/SRPMS/
 
 
 #############################################################################
@@ -50,9 +50,8 @@ thunderbird
 @eclipse
 @internet-browser
 @console-internet
-@remote-desktop-client
+@remote-desktop-clients
 @system-admin-tools
-joe
 @emacs
 @tex
 k3b

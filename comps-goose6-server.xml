@@ -9682,6 +9682,7 @@
       <packagereq type='mandatory'>printer-filters</packagereq>
       <packagereq type='default'>foomatic</packagereq>
       <packagereq type='default'>foomatic-db-ppds</packagereq>
+      <packagereq type='default'>ghostscript</packagereq>
       <packagereq type='default'>gutenprint</packagereq>
       <packagereq type='default'>gutenprint-cups</packagereq>
       <packagereq type='default'>hpijs</packagereq>
