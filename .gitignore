@@ -1,5 +1,6 @@
 .*.sw[po]
 *.py[co]
+*.iso
 gl6/
 cache/
 epel-6/
