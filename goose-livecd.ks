@@ -24,6 +24,7 @@ kernel
 @base
  #package added to @base
   squashfs-tools
+  man
  #packages removed from @base
  -bind-utils
  -ed
@@ -33,6 +34,7 @@ kernel
  -microcode_ctl
  -psacct
  -quota
+
 @basic-desktop
  #package removed from @basic-desktop
  -gok
@@ -86,7 +88,7 @@ isomd5sum
 
 %post
 
-## default LiveCD user
+## default Live user
 LIVECD_USER="GoOSe"
 
 ########################################################################
@@ -259,13 +261,13 @@ touch /media/.hal-mtab
 # workaround clock syncing on shutdown that we don't want (#297421)
 sed -i -e 's/hwclock/no-such-hwclock/g' /etc/rc.d/init.d/halt
 
-# set the LiveCD hostname
-sed -i -e 's/HOSTNAME=localhost.localdomain/HOSTNAME=livecd.localdomain/g' /etc/sysconfig/network
+# set the Live hostname
+sed -i -e 's/HOSTNAME=localhost.localdomain/HOSTNAME=live.localdomain/g' /etc/sysconfig/network
 /bin/hostname livecd.localdomain
 
-## create the LiveCD default user
+## create the Live default user
 # add default user with no password
-/usr/sbin/useradd -c "LiveCD default user" $LIVECD_USER
+/usr/sbin/useradd -c "Live default user" $LIVECD_USER
 /usr/bin/passwd -d $LIVECD_USER > /dev/null
 # give default user sudo privileges
 echo "$LIVECD_USER     ALL=(ALL)     NOPASSWD: ALL" >> /etc/sudoers
@@ -511,7 +513,7 @@ cat > /root/postnochroot-install << EOF_postnochroot
 # Copy licensing information
 cp $INSTALL_ROOT/usr/share/doc/*-release-*/GPL $LIVE_ROOT/GPL
 
-# add livecd-iso-to-disk utility on the LiveCD
+# add livecd-iso-to-disk utility on the Live
 # only works on x86, x86_64
 if [ "\$(uname -i)" = "i386" -o "\$(uname -i)" = "x86_64" ]; then
   if [ ! -d \$LIVE_ROOT/LiveOS ]; then mkdir -p \$LIVE_ROOT/LiveOS ; fi
