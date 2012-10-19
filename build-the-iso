@@ -9,20 +9,33 @@
 # Also, must have mock installed along with the pungi-goose.ks
 
 MOCK=/usr/bin/mock
-KS=/mnt/koji/releng/pungi-goose.ks
+KOJI_ROOT=/mnt/koji
+KS=${KOJI_ROOT}/releng/pungi-goose.ks
 KS_MOCK_PATH=/root
 PUNGI=/usr/bin/pungi
 
+ARCHES="x86_64 i386"
+
 ISO_NAME=GoOSe
 ISO_FLAVOR=Linux
+ISO_RELEASE=Beta-RC3
 ISO_DEST=/root/gl6
 ISO_CACHEDIR=/root/gl6/cache/
 ISO_KS=pungi-goose.ks
 ISO_VERSION=6
 
-for ARCH in x86_64 i386; do  
+
+ISO_FINAL_PATH=${KOJI_ROOT}/releng/gl6/6.0/${ISO_RELEASE}/${ISO_NAME}
+
+for ARCH in ${ARCHES}; do
+
+  MOCK_ROOT="/var/lib/mock/goose-${ISO_VERSION}-${ARCH}"
+  # build the iso
   ${MOCK} -r goose-6-${ARCH} --init
   ${MOCK} -r goose-6-${ARCH} --install pungi
   ${MOCK} -r goose-6-${ARCH} --copyin ${KS} ${KS_MOCK_PATH}
-  ${MOCK} -r goose-6-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --flavor=${ISO_FLAVOR} --destdir=${ISO_DEST} --cachedir=ISO_CACHEDIR --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSION} --force"
+  ${MOCK} -r goose-6-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --flavor=${ISO_FLAVOR} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSION} --force"
+
+  # move the iso to the release directory
+  echo rsync ${MOCK_ROOT}${ISO_DEST}/* ${ISO_FINAL_PATH}/
 done
