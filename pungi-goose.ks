@@ -38,9 +38,11 @@ edac-utils
 gpm
 isomd5sum
 kernel*
+logwatch
 
-tcsh
+
 ntp
+tcsh
 
 -generic-logos
 -glibc32
@@ -139,7 +141,9 @@ libspiro
 libwmf
 libwpd
 libwpg
-
+lsscsi
+luci
+lvm2-cluster
 
 wireshark-gnome
 
@@ -233,6 +237,8 @@ libXpm-devel
 libXScrnSaver-devel
 libXv-devel
 libXxf86misc-devel
+lm_sensors-devel
+log4cpp
 
 
 # Server packages
@@ -258,7 +264,6 @@ libXxf86misc-devel
 @backup-client
 @backup-server
 @storage-client-multipath
-@storage-client-fcoe
 @storage-server
 @conflicts-server
 
@@ -298,6 +303,7 @@ libdbi-dbd-pgsql
 libmemcached
 libwsman1
 libwvstreams
+lksctp-tools
 
 
 # Virt group
@@ -374,6 +380,9 @@ lapack
 ldapjdk
 libnetfilter_conntrack
 libnfnetlink
+lm_sensors
+lrzsz
+lslk
 
 
 # Languages
