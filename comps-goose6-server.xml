@@ -11660,7 +11660,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type='optional'>conman</packagereq>
+      <packagereq type='default'>conman</packagereq>
       <packagereq type='optional'>crypto-utils</packagereq>
       <packagereq type='optional'>dtach</packagereq>
       <packagereq type='optional'>hardlink</packagereq>
