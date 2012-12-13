@@ -10,7 +10,7 @@
 
 if [ $# -lt 1 ]; then
     echo "Usage $0 <RELEASE>"
-    echo "(eg. $0 Beta-RC4")
+    echo "(eg. $0 Beta-RC4)"
     exit 1
 fi
 
