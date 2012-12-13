@@ -1,12 +1,18 @@
 #!/bin/bash
 #
 # BUILD THE ISO!!!
-# this builds the GoOSe releases, 
+# this builds the GoOSe releases,
 # based upon the process described below.
-# 
+#
 
 # Repositories must be mashed and available in a repository
 # Also, must have mock installed along with the pungi-goose.ks
+
+if [ $# -lt 1 ]; then
+    echo "Usage $0 <RELEASE>"
+    echo "(eg. $0 Beta-RC4")
+    exit 1
+fi
 
 MOCK=/usr/bin/mock
 KOJI_ROOT=/mnt/koji
@@ -18,7 +24,7 @@ PUNGI=/usr/bin/pungi
 ARCHES="i386"
 
 ISO_NAME=GoOSe
-ISO_RELEASE=Beta-RC3
+ISO_RELEASE=${1}
 ISO_DEST=/home/gl6
 ISO_CACHEDIR=/root/gl6/cache
 ISO_KS=pungi-goose.ks
