@@ -20,8 +20,8 @@ KS=${KOJI_ROOT}/releng/pungi-goose.ks
 KS_MOCK_PATH=/root
 PUNGI=/usr/bin/pungi
 
-#ARCHES="x86_64 i386"
-ARCHES="i386"
+ARCHES="x86_64 i386"
+#ARCHES="i386"
 
 ISO_NAME=GoOSe
 ISO_RELEASE=${1}
