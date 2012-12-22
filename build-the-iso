@@ -8,9 +8,9 @@
 # Repositories must be mashed and available in a repository
 # Also, must have mock installed along with the pungi-goose.ks
 
-if [ $# -lt 1 ]; then
-    echo "Usage $0 <RELEASE>"
-    echo "(eg. $0 Beta-RC4)"
+if [ $# -lt 2 ]; then
+    echo "Usage $0 <STAGE> <RELEASE>"
+    echo "(eg. $0 Beta RC4)"
     exit 1
 fi
 
@@ -21,14 +21,21 @@ KS_MOCK_PATH=/root
 PUNGI=/usr/bin/pungi
 
 ARCHES="x86_64 i386"
-#ARCHES="i386"
 
 ISO_NAME=GoOSe
-ISO_RELEASE=${1}
+ISO_RELEASE=${2}
 ISO_DEST=/home/gl6
 ISO_CACHEDIR=/root/gl6/cache
 ISO_KS=pungi-goose.ks
 ISO_VERSION=6
+ISO_STAGE=${1}
+
+# if it's Alpha or Beta, make sure to say so
+if [ "${ISO_STAGE}" == "Alpha" || "${ISO_STAGE}" == "Beta" ]; then
+  ISO_VERSTAGE=${ISO_VERSION}-${ISO_STAGE}
+else
+  ISO_VERSTAGE=${ISO_VERSION}
+fi
 
 
 ISO_FINAL_PATH=${KOJI_ROOT}/releng/gl6/6.0/${ISO_RELEASE}/${ISO_NAME}
@@ -40,7 +47,7 @@ for ARCH in ${ARCHES}; do
   ${MOCK} -r goose-6-${ARCH} --init
   ${MOCK} -r goose-6-${ARCH} --install pungi
   ${MOCK} -r goose-6-${ARCH} --copyin ${KS} ${KS_MOCK_PATH}
-  ${MOCK} -r goose-6-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSION} --force"
+  ${MOCK} -r goose-6-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSTAGE} --force"
 
   # move the iso to the release directory (need root access)
   sudo rsync -av --progress ${MOCK_ROOT}/${ISO_DEST}/${ISO_VERSION}/* ${ISO_FINAL_PATH}/
