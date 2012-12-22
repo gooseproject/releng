@@ -367,6 +367,8 @@ NetworkManager-openswan
 nmap
 openssl098e
 
+-fence-virtd-libvirt-qpid
+
 
 # Virt group
 @virtualization
@@ -380,7 +382,6 @@ libguestfs-mount
 libguestfs-tools
 libvirt-cim
 libvirt-java
-libvirt-qpid
 
 
 # Useful miscellany
@@ -580,7 +581,6 @@ qperf
 qpid-cpp-client
 qpid-cpp-server
 qpid-tests
-qpid-tools
 qt3-MySQL
 qt3-ODBC
 qt3-PostgreSQL
@@ -677,7 +677,6 @@ tix
 tk
 tkinter
 tn5250
-tog-pegasus
 tokyocabinet
 totem-upnp
 tpm-tools
