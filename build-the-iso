@@ -29,12 +29,11 @@ ISO_CACHEDIR=/root/gl6/cache
 ISO_KS=pungi-goose.ks
 ISO_VERSION=6
 ISO_STAGE=${1}
+ISO_VERSTAGE=${ISO_VERSION}
 
 # if it's Alpha or Beta, make sure to say so
-if [ "${ISO_STAGE}" == "Alpha" || "${ISO_STAGE}" == "Beta" ]; then
+if [ "${ISO_STAGE}" == "Alpha" ] || [ "${ISO_STAGE}" == "Beta" ]; then
   ISO_VERSTAGE=${ISO_VERSION}-${ISO_STAGE}
-else
-  ISO_VERSTAGE=${ISO_VERSION}
 fi
 
 
