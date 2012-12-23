@@ -49,5 +49,5 @@ for ARCH in ${ARCHES}; do
   ${MOCK} -r goose-6-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSTAGE} --force"
 
   # move the iso to the release directory (need root access)
-  sudo rsync -av --progress ${MOCK_ROOT}/${ISO_DEST}/${ISO_VERSION}/* ${ISO_FINAL_PATH}/
+  sudo rsync -av --progress ${MOCK_ROOT}/${ISO_DEST}/${ISO_VERSTAGE}/* ${ISO_FINAL_PATH}/
 done
