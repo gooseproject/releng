@@ -368,6 +368,7 @@ nmap
 openssl098e
 
 -fence-virtd-libvirt-qpid
+-tog-pegasus
 
 
 # Virt group
