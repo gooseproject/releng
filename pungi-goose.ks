@@ -369,6 +369,7 @@ openssl098e
 
 -fence-virtd-libvirt-qpid
 -tog-pegasus
+-libcmpiCppImpl0
 
 
 # Virt group
