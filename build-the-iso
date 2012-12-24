@@ -3,7 +3,6 @@
 # BUILD THE ISO!!!
 # this builds the GoOSe releases,
 # based upon the process described below.
-#
 
 # Repositories must be mashed and available in a repository
 # Also, must have mock installed along with the pungi-goose.ks
@@ -23,21 +22,22 @@ PUNGI=/usr/bin/pungi
 ARCHES="x86_64 i386"
 
 ISO_NAME=GoOSe
+ISO_STAGE=${1}
 ISO_RELEASE=${2}
 ISO_DEST=/home/gl6
 ISO_CACHEDIR=/root/gl6/cache
 ISO_KS=pungi-goose.ks
 ISO_VERSION=6
-ISO_STAGE=${1}
 ISO_VERSTAGE=${ISO_VERSION}
 
 # if it's Alpha or Beta, make sure to say so
 if [ "${ISO_STAGE}" == "Alpha" ] || [ "${ISO_STAGE}" == "Beta" ]; then
   ISO_VERSTAGE=${ISO_VERSION}-${ISO_STAGE}
+  ISO_STGREL=${ISO_STAGE}-${ISO_RELEASE}
 fi
 
 
-ISO_FINAL_PATH=${KOJI_ROOT}/releng/gl6/6.0/${ISO_VERSTAGE}/${ISO_NAME}
+ISO_FINAL_PATH=${KOJI_ROOT}/releng/gl6/6.0/${ISO_STGREL}/${ISO_NAME}
 
 for ARCH in ${ARCHES}; do
 
