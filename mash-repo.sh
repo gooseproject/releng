@@ -20,7 +20,7 @@ BASE_DIR=/mnt/koji/releng/gl6
 if [ "${STAGE}" == "Alpha" ]; then
     REL_DIR="sketchy"
     OUTPUT_DIR=${BASE_DIR}/${REL_DIR}/${VERSION}-${STAGE}-${SEQ}/
-elif [ "${STAGE}" == "Beta" ] || [ "${SEQ} != "Final" ]; then
+elif [ "${STAGE}" == "Beta" ] || [ "${SEQ}" != "Final" ]; then
     REL_DIR="${VERSION}"
     OUTPUT_DIR=${BASE_DIR}/${REL_DIR}/${STAGE}-${SEQ}/
 else
