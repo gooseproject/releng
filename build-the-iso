@@ -37,22 +37,21 @@ if [ "${ISO_STAGE}" == "Alpha" ] || [ "${ISO_STAGE}" == "Beta" ] || [ "${ISO_REL
   ISO_STGREL=${ISO_STAGE}-${ISO_RELEASE}
 fi
 
-
 ISO_FINAL_PATH=${KOJI_ROOT}/releng/gl6/6.0/${ISO_STGREL}/${ISO_NAME}
 
 for ARCH in ${ARCHES}; do
 
   MOCK_ROOT="/var/lib/mock/goose-${ISO_VERSION}-${ARCH}/root"
   # build the iso
-  echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --init
-  echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --install pungi
-  echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --copyin ${KS} ${KS_MOCK_PATH}
+  ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --init
+  ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --install pungi
+  ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --copyin ${KS} ${KS_MOCK_PATH}
   if [ "${ISO_STAGE}" == "Final" ]; then
-    echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_STAGE} --force"
+    ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_STAGE} --force"
   else
-    echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSTAGE} --force"
+    ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSTAGE} --force"
   fi
 
   # move the iso to the release directory (need root access)
-  echo sudo rsync -av --progress ${MOCK_ROOT}/${ISO_DEST}/${ISO_VERSION}/* ${ISO_FINAL_PATH}/
+  sudo rsync -av --progress ${MOCK_ROOT}/${ISO_DEST}/${ISO_VERSION}/* ${ISO_FINAL_PATH}/
 done
