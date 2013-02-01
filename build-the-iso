@@ -7,9 +7,9 @@
 # Repositories must be mashed and available in a repository
 # Also, must have mock installed along with the pungi-goose.ks
 
-if [ $# -lt 2 ]; then
-    echo "Usage $0 <STAGE> <RELEASE>"
-    echo "(eg. $0 Beta RC4)"
+if [ $# -lt 3 ]; then
+    echo "Usage $0 <VERSION> <STAGE> <RELEASE>"
+    echo "(eg. $0 6.0 Beta RC4)"
     exit 1
 fi
 
@@ -22,12 +22,12 @@ PUNGI=/usr/bin/pungi
 ARCHES="x86_64 i386"
 
 ISO_NAME=GoOSe
-ISO_STAGE=${1}
-ISO_RELEASE=${2}
+ISO_VERSION=${1}
+ISO_STAGE=${2}
+ISO_RELEASE=${3}
 ISO_DEST=/home/gl6
 ISO_CACHEDIR=/root/gl6/cache
 ISO_KS=pungi-goose.ks
-ISO_VERSION=6.0
 ISO_VERSTAGE=${ISO_VERSION}
 ISO_STGREL=${ISO_STAGE}
 
@@ -44,15 +44,15 @@ for ARCH in ${ARCHES}; do
 
   MOCK_ROOT="/var/lib/mock/goose-${ISO_VERSION}-${ARCH}/root"
   # build the iso
-  ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --init
-  ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --install pungi
-  ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --copyin ${KS} ${KS_MOCK_PATH}
+  echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --init
+  echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --install pungi
+  echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --copyin ${KS} ${KS_MOCK_PATH}
   if [ "${ISO_STAGE}" == "Final" ]; then
-    ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_STAGE} --force"
+    echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_STAGE} --force"
   else
-    ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSTAGE} --force"
+    echo ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSTAGE} --force"
   fi
 
   # move the iso to the release directory (need root access)
-  sudo rsync -av --progress ${MOCK_ROOT}/${ISO_DEST}/${ISO_VERSTAGE}/* ${ISO_FINAL_PATH}/
+  sudo rsync -av --progress ${MOCK_ROOT}/${ISO_DEST}/${ISO_VERSION}/* ${ISO_FINAL_PATH}/
 done
