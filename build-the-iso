@@ -47,7 +47,7 @@ for ARCH in ${ARCHES}; do
   ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --install pungi
   ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --copyin ${KS} ${KS_MOCK_PATH}
   if [ "${ISO_STAGE}" == "Final" ]; then
-    ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_STAGE} --force"
+    ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSION} --force"
   else
     ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSTAGE} --force"
   fi
