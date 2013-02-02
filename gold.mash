@@ -17,3 +17,5 @@ arches = i386 x86_64
 delta = True
 # Change distro_tags as fedora-release version gets bumped
 distro_tags = cpe:/o:gooseproject:goose:6 pilgrim
+hash_packages = True
+
