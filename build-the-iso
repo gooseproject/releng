@@ -37,7 +37,7 @@ if [ "${ISO_STAGE}" == "Alpha" ] || [ "${ISO_STAGE}" == "Beta" ] || [ "${ISO_REL
   ISO_STGREL=${ISO_STAGE}-${ISO_RELEASE}
 fi
 
-ISO_FINAL_PATH=${KOJI_ROOT}/releng/gl6/${ISO_VERSTAGE}/${ISO_STGREL}/${ISO_NAME}
+ISO_FINAL_PATH=${KOJI_ROOT}/releng/gl6/${ISO_VERSION}/${ISO_STGREL}/${ISO_NAME}
 
 for ARCH in ${ARCHES}; do
 
