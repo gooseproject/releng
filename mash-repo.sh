@@ -16,7 +16,10 @@ STAGE=$2
 SEQ=$3
 CFG=$4
 
-BASE_DIR=/mnt/koji/releng/gl6
+MAJOR=$(echo ${VERSION} | cut -f1 -d".")
+
+
+BASE_DIR=/mnt/koji/releng/gl${MAJOR}
 if [ "${STAGE}" == "Alpha" ]; then
     REL_DIR="sketchy"
     OUTPUT_DIR=${BASE_DIR}/${REL_DIR}/${VERSION}-${STAGE}-${SEQ}/
@@ -40,6 +43,5 @@ rsync -a ${CFG}/* Everything/
 rm -rf ${CFG}
 popd # &> /dev/null
 
-rm -f ${BASE_DIR}/6{,Server}
-ln -s ${OUTPUT_DIR} /mnt/koji/releng/gl6/6
-ln -s ${OUTPUT_DIR} /mnt/koji/releng/gl6/6Server
+rm -f ${BASE_DIR}/${MAJOR}
+ln -s ${OUTPUT_DIR} /mnt/koji/releng/gl${MAJOR}/${MAJOR}
