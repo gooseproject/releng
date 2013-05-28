@@ -27,7 +27,7 @@ ISO_RELEASE=${2}
 ISO_DEST=/home/gl6
 ISO_CACHEDIR=/root/gl6/cache
 ISO_KS=pungi-goose.ks
-ISO_VERSION=6
+ISO_VERSION=6.0
 ISO_VERSTAGE=${ISO_VERSION}
 
 # if it's Alpha or Beta, make sure to say so
