@@ -7,9 +7,9 @@
 # Repositories must be mashed and available in a repository
 # Also, must have mock installed along with the pungi-goose.ks
 
-if [ $# -lt 2 ]; then
-    echo "Usage $0 <STAGE> <RELEASE>"
-    echo "(eg. $0 Beta RC4)"
+if [ $# -lt 3 ]; then
+    echo "Usage $0 <VERSION> <STAGE> <RELEASE>"
+    echo "(eg. $0 6.0 Beta RC4)"
     exit 1
 fi
 
@@ -22,32 +22,37 @@ PUNGI=/usr/bin/pungi
 ARCHES="x86_64 i386"
 
 ISO_NAME=GoOSe
-ISO_STAGE=${1}
-ISO_RELEASE=${2}
+ISO_VERSION=${1}
+ISO_STAGE=${2}
+ISO_RELEASE=${3}
 ISO_DEST=/home/gl6
 ISO_CACHEDIR=/root/gl6/cache
 ISO_KS=pungi-goose.ks
 ISO_VERSION=6.0
 ISO_VERSTAGE=${ISO_VERSION}
+ISO_STGREL=${ISO_STAGE}
 
 # if it's Alpha or Beta, make sure to say so
-if [ "${ISO_STAGE}" == "Alpha" ] || [ "${ISO_STAGE}" == "Beta" ]; then
+if [ "${ISO_STAGE}" == "Alpha" ] || [ "${ISO_STAGE}" == "Beta" ] || [ "${ISO_RELEASE}" != "Final" ]; then
   ISO_VERSTAGE=${ISO_VERSION}-${ISO_STAGE}
   ISO_STGREL=${ISO_STAGE}-${ISO_RELEASE}
 fi
 
-
-ISO_FINAL_PATH=${KOJI_ROOT}/releng/gl6/6.0/${ISO_STGREL}/${ISO_NAME}
+ISO_FINAL_PATH=${KOJI_ROOT}/releng/gl6/${ISO_VERSION}/${ISO_STGREL}/${ISO_NAME}
 
 for ARCH in ${ARCHES}; do
 
   MOCK_ROOT="/var/lib/mock/goose-${ISO_VERSION}-${ARCH}/root"
   # build the iso
-  ${MOCK} -r goose-6-${ARCH} --init
-  ${MOCK} -r goose-6-${ARCH} --install pungi
-  ${MOCK} -r goose-6-${ARCH} --copyin ${KS} ${KS_MOCK_PATH}
-  ${MOCK} -r goose-6-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSTAGE} --force"
+  ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --init
+  ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --install pungi
+  ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --copyin ${KS} ${KS_MOCK_PATH}
+  if [ "${ISO_STAGE}" == "Final" ]; then
+    ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSION} --force"
+  else
+    ${MOCK} -r goose-${ISO_VERSION}-${ARCH} --chroot  "${PUNGI} --name=${ISO_NAME} --destdir=${ISO_DEST} --cachedir=${ISO_CACHEDIR} --all-stages -c ${KS_MOCK_PATH}/${ISO_KS}  --ver=${ISO_VERSTAGE} --force"
+  fi
 
   # move the iso to the release directory (need root access)
-  sudo rsync -av --progress ${MOCK_ROOT}/${ISO_DEST}/${ISO_VERSTAGE}/* ${ISO_FINAL_PATH}/
+  sudo rsync -av --progress ${MOCK_ROOT}/${ISO_DEST}/${ISO_VERSION}/* ${ISO_FINAL_PATH}/
 done

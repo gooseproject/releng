@@ -20,6 +20,7 @@ CFG=$4
 
 MAJOR=$(echo ${VERSION} | cut -f1 -d".")
 
+<<<<<<< HEAD
 STG_LOWER=$(echo ${STAGE} | tr '[A-Z]' '[a-z]')
 SEQ_LOWER=$(echo ${SEQ} | tr '[A-Z]' '[a-z]')
 
@@ -37,6 +38,19 @@ elif [ "${STG_LOWER}" == "beta" ] || [ "${SEQ_LOWER}" != "final" ]; then
     OUTPUT_DIR=${BASE_DIR}/testing/${VERSION}/${STG_LOWER}-${SEQ_LOWER}/
 elif [ "${STG_LOWER}" == "final" ] || [ "${SEQ_LOWER}" == "final" ]; then
     OUTPUT_DIR=${BASE_DIR}/releases/${VERSION}/
+=======
+
+BASE_DIR=/mnt/koji/releng/gl${MAJOR}
+if [ "${STAGE}" == "Alpha" ]; then
+    REL_DIR="sketchy"
+    OUTPUT_DIR=${BASE_DIR}/${REL_DIR}/${VERSION}-${STAGE}-${SEQ}/
+elif [ "${STAGE}" == "Beta" ] || [ "${SEQ}" != "Final" ]; then
+    REL_DIR="${VERSION}"
+    OUTPUT_DIR=${BASE_DIR}/${REL_DIR}/${STAGE}-${SEQ}/
+else
+    REL_DIR="${VERSION}"
+    OUTPUT_DIR=${BASE_DIR}/${REL_DIR}/Final/
+>>>>>>> 574c2021609816b3533c87b5bc08fbd51ea80146
 fi
 
 if [ ! -d ${OUTPUT_DIR} ]; then
@@ -62,7 +76,12 @@ fi
 
 popd # &> /dev/null
 
+<<<<<<< HEAD
 if [ "${STG_LOWER}" == "final" ] || [ "${SEQ_LOWER}" == "final" ]; then
     rm -f ${BASE_DIR}/${MAJOR}
     ln -s ${OUTPUT_DIR} /mnt/koji/releng/gl${MAJOR}/${MAJOR}
 fi
+=======
+rm -f ${BASE_DIR}/${MAJOR}
+ln -s ${OUTPUT_DIR} /mnt/koji/releng/gl${MAJOR}/${MAJOR}
+>>>>>>> 574c2021609816b3533c87b5bc08fbd51ea80146
