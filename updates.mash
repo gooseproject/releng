@@ -1,0 +1,21 @@
+# mash config file
+
+[updates]
+rpm_path = %(arch)s/
+repodata_path = %(arch)s/
+source_path = source/SRPMS
+debuginfo = True
+multilib = True
+multilib_method = devel
+tag = gl6.0-updates-candidate
+inherit = False
+strict_keys = True
+keys = E6D88F06, 3A1A65B6, 1CDBBB39
+repoviewurl = http://localhost/pub/goose/linux/development/beta/%(arch)s/
+repoviewtitle = "GoOSe Linux - %(arch)s"
+arches = i386 x86_64
+delta = False
+# Change distro_tags as fedora-release version gets bumped
+distro_tags = cpe:/o:gooseproject:goose:6 pilgrim
+hash_packages = False
+
